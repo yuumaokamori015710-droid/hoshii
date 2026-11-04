@@ -1,0 +1,5 @@
+/* Push-only worker. Private pages and API responses are never cached. */
+self.addEventListener('install',()=>self.skipWaiting());
+self.addEventListener('activate',e=>e.waitUntil(self.clients.claim()));
+self.addEventListener('push',event=>{let payload={};try{payload=event.data?.json()||{};}catch{payload={body:event.data?.text()};}event.waitUntil(self.registration.showNotification(payload.title||'HOSHII の新着',{body:payload.body||'欲しいものに合う懸賞が見つかりました。',icon:'/favicon.svg',badge:'/favicon.svg',tag:payload.tag||'hoshii-new',data:{url:payload.url||'/#notifications'}}));});
+self.addEventListener('notificationclick',event=>{event.notification.close();const target=new URL(event.notification.data?.url||'/#notifications',self.location.origin);if(target.origin!==self.location.origin)return;event.waitUntil(self.clients.matchAll({type:'window',includeUncontrolled:true}).then(async clients=>{const client=clients.find(c=>new URL(c.url).origin===self.location.origin);if(client){await client.navigate(target.href);return client.focus();}return self.clients.openWindow(target.href);}));});

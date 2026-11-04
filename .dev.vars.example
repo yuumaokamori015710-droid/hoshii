@@ -1,0 +1,4 @@
+# Optional browser push configuration. Use your own VAPID key pair.
+VAPID_PUBLIC_KEY=""
+VAPID_PRIVATE_KEY=""
+VAPID_SUBJECT="https://example.com"
