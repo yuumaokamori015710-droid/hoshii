@@ -1930,5 +1930,202 @@
     "checkedAt": "2026-11-04T15:11:20.016415+00:00",
     "evidenceExcerpt": "公式 LP・規約と主催者発表で、口コミ投稿と必要チケット枚数を確認。購入費が必須でなくてもレビューという追加作業条件がある。",
     "entryUrl": "https://cc-moola.com/lp/campaign"
+  },
+  {
+    "sourceKey": "c2499b228afbcfe00d76b07d",
+    "officialUrl": "https://esf.nikkei.co.jp/tvo_moshimane2611/",
+    "sourceUrl": "https://id.club.tv-osaka.co.jp/area/table/41232/a2yZGD/M?S=rbrir2maogod",
+    "title": "【もしマネ】日経ID　QUOカード5,000円分",
+    "status": "unknown",
+    "requirements": [
+      "応募 URL は実在するが日経 ID ログインへ遷移し、今回の応募規約・設問・視聴条件等の全文を未確認。"
+    ],
+    "steps": [
+      "テレビ大阪の公式プレゼント一覧から「もしマネ」QUOカード5000円分の応募先へ進む。無料の日経 ID 登録・ログインが必要。",
+      "締切は12月6日13:59 JST。放送視聴やキーワード等の追加条件は公開一覧に記載がなく、ログイン前に確認できない。"
+    ],
+    "checkedAt": "2026-11-04T23:45:50.202821+00:00",
+    "evidenceExcerpt": "公式一覧に賞品・期限と日経 ID 無料登録を明示。公開応募先の通常 GET は日経 ID ログインに転送されるため、無料 ID という理由だけで追加条件なしにはしない。",
+    "entryUrl": "https://esf.nikkei.co.jp/tvo_moshimane2611/"
+  },
+  {
+    "sourceKey": "f6a06c449249f92cd0b9b172",
+    "officialUrl": "https://www.orangepage.net/present/300039",
+    "sourceUrl": "https://www.orangepage.net/present",
+    "title": "オレンジページ読者アンケート：Amazonギフトカード2,000円等",
+    "status": "unknown",
+    "requirements": [
+      "実アンケートは会員ログイン後に表示され、購読・読者対象や設問の追加条件を全文確認できない。"
+    ],
+    "steps": [
+      "オレンジページメンバーズに無料登録し、会員 ID で読者アンケートにログインする。新規会員も応募可と公式記事に明記。",
+      "希望賞品 E は Amazon ギフトカード2000円分29名。12月1日23:59 JST まで。",
+      "会員規約で案内メール受信が必須。国内受取。回答フォームを送信したり会員登録したりする操作はしていない。"
+    ],
+    "checkedAt": "2026-11-04T23:47:00.659871+00:00",
+    "evidenceExcerpt": "公式記事の賞品・新規会員可・応募注意事項と、会員規約・実ログイン先を確認。ログイン前ページは無料登録を示すが設問本文を読めないため、参加条件は unknown に残す。",
+    "entryUrl": "https://members.orangepage.net/form/pub/op/2026m",
+    "evidenceUrls": [
+      "https://www.orangepage.net/present/300039",
+      "https://www.orangepage.net/members-rule"
+    ]
+  },
+  {
+    "sourceKey": "prtimes-tourism:2535:9492",
+    "officialUrl": "https://arukikata.jp/idsprk",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000009492.000002535.html",
+    "title": "地球の歩き方 飯田市 アンケート",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "無料の公式 Google Form で、飯田市ガイドの表紙候補を選び、応募用の氏名・連絡先・国内住所・性別・年齢区分を入力する。",
+      "飯田市との関係欄には「特にご縁なし」もあり、在住・出身・訪問歴は不要。地域体験・感想等の自由記述とペンネームは任意。",
+      "国内在住の方が応募規約に同意して、本日11月5日23:59 JST までに送信。地球の歩き方オリジナル QUO カード20名。金額は公式本文に明記なし。",
+      "Google ログインは作業内容保存用の案内で、必須ログインのフォームではない。コメントの誌面掲載は希望しない旨を記入できる。"
+    ],
+    "checkedAt": "2026-11-04T23:45:51.240676+00:00",
+    "evidenceExcerpt": "主催者発表と実応募フォームが配信する公開データ内の全2ページ・応募規約を確認。応募資格は規約同意と日本国内在住のみ。必須設問は表紙候補選択と通常の応募者情報で、飯田市在住者向け自由記述は全て任意。",
+    "entryUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfViRSGE-UPRTxKka49nx9joSxWC_x62kTr4ou99qc5K6-dUw/viewform?usp=send_form",
+    "evidenceUrls": [
+      "https://prtimes.jp/main/html/rd/p/000009492.000002535.html",
+      "https://arukikata.jp/idsprk"
+    ]
+  },
+  {
+    "sourceKey": "prtimes-finance:9284:776",
+    "officialUrl": "https://www.cmoa.jp/comic_prize/",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000776.000009284.html",
+    "title": "電子コミック大賞2027 Amazonギフト",
+    "status": "unknown",
+    "requirements": [
+      "公式投票特設サイトが503で応答し、SNS抽選の実応募導線・参加規約を確認できない。"
+    ],
+    "steps": [
+      "主催者発表では会員登録なしの無料投票が可能。@comic_cmoa をフォローし、投票作品を投稿すると Amazon1万円分50名の抽選。",
+      "投票・SNS抽選は11月24日23:59 JST まで。投票ポイントや割引クーポンは別特典。"
+    ],
+    "checkedAt": "2026-11-04T23:45:50.680993+00:00",
+    "evidenceExcerpt": "主催者発表の投票概要・SNS抽選は確認したが、特設サイトは通常 HTTPS と web の双方で503。投稿に必要なタグ・連携画面や規約が読めず保留。アクセス制限の迂回はしていない。",
+    "entryUrl": "https://www.cmoa.jp/comic_prize/"
+  },
+  {
+    "sourceKey": "vpoint:qz910037149038",
+    "officialUrl": "https://cpn.tsite.jp/detail/qz910037149038",
+    "sourceUrl": "https://cpn.tsite.jp/list/all",
+    "title": "かんたんクイズに正解すると100pt当たる！| ゲームでポイ活！Vポイントゲームパーク",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "無料の V 会員ネットサービスに登録して Vポイントサイトへログインする。新規ならモバイル V カードを発行でき、クレジット契約は不要。",
+      "公式の当該クイズ画面で3択の1問に回答する。ヒントは公開されたゲーム案内ページで確認でき、実際のゲーム購入・プレイ実績は不要。",
+      "正解者から100名に Vポイント100pt。11月30日23:59:59 JST まで、回答・応募は1回のみ。終了翌日以降1か月以内の付与。"
+    ],
+    "checkedAt": "2026-11-04T23:45:51.266507+00:00",
+    "evidenceExcerpt": "公開の実クイズ画面・3択・賞品・注意事項に購入やプレイ実績の条件はない。Vポイントサイト利用規約はネット会員登録と通常サービスを無料とし、公式ガイドはスマホでのモバイル V カード新規発行を案内する。",
+    "entryUrl": "https://cpn.tsite.jp/detail/qz910037149038",
+    "evidenceUrls": [
+      "https://cpn.tsite.jp/detail/qz910037149038",
+      "https://privacy.vpoint.co.jp/terms/site-service/",
+      "https://t-point.tsite.jp/guide/card/"
+    ]
+  },
+  {
+    "sourceKey": "cd7d1e411060fd0c2dacf3d2",
+    "officialUrl": "https://esf.nikkei.co.jp/tvo_leader2610/",
+    "sourceUrl": "https://id.club.tv-osaka.co.jp/area/table/41232/a2yZGD/M?S=rbrir2maogod",
+    "title": "【関西リーダー列伝】選べる\"ごちそう\"カタログギフト4,400円(税込)",
+    "status": "unknown",
+    "requirements": [
+      "日経 ID ログイン後の応募資格・設問・規約が公開状態で読めず、視聴等の追加条件が未確認。"
+    ],
+    "steps": [
+      "テレビ大阪の公式プレゼント一覧から関西リーダー列伝の応募先へ進み、無料の日経 ID でログインする。",
+      "選べるごちそうカタログ4400円相当。締切は11月8日13:59 JST。"
+    ],
+    "checkedAt": "2026-11-04T23:45:52.565790+00:00",
+    "evidenceExcerpt": "公式一覧と実応募 URL は確認できたが、応募 URL の先は日経 ID 認証画面。番組名から視聴条件を推測せず、完全な応募要件が読めるまで unknown にする。",
+    "entryUrl": "https://esf.nikkei.co.jp/tvo_leader2610/"
+  },
+  {
+    "sourceKey": "e3175c4dc216afc5bea64b26",
+    "officialUrl": "https://www.orangepage.net/present/314967",
+    "sourceUrl": "https://www.orangepage.net/present",
+    "title": "紀文オリジナルQUOカード1,000円5名",
+    "status": "unknown",
+    "requirements": [
+      "会員ログイン後の実応募フォームと設問を確認できず、追加条件の有無は未確認。"
+    ],
+    "steps": [
+      "オレンジページメンバーズに無料登録してログイン。公式記事に表示される「応募はこちらから」の専用リンクを使う。",
+      "国内在住、1人1回。紀文オリジナル QUO カード1000円分5名。11月10日まで。",
+      "会員規約で案内メール受信が必須。公式記事には対象食品の購入条件は記載されていないが、ログイン後の全項目は読めない。"
+    ],
+    "checkedAt": "2026-11-04T23:47:01.099040+00:00",
+    "evidenceExcerpt": "公式賞品記事・国内資格・一人一回・会員規約とリンク先の実ログイン画面を確認。ログイン後の内容は未確認のため、商品の宣伝だけを根拠に購入必須とも購入不要とも断定しない。",
+    "entryUrl": "https://members.orangepage.net/dbc/pub/op/mb1021pr/update/login",
+    "evidenceUrls": [
+      "https://www.orangepage.net/present/314967",
+      "https://www.orangepage.net/members-rule"
+    ]
+  },
+  {
+    "sourceKey": "prtimes-broad:108441:87",
+    "officialUrl": "https://www.ichibanya.co.jp/cocopo/",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000087.000108441.html",
+    "title": "ココイチ 1日1回アプリくじ",
+    "status": "unknown",
+    "requirements": [
+      "公式 LP は無料登録・くじ参加を案内するが、アプリ内にある当該くじの全応募規約と追加資格を確認できない。"
+    ],
+    "steps": [
+      "公式ココイチアプリを無料ダウンロードし、メールアドレスまたは電話番号で会員登録する。",
+      "アプリトップのくじバナーから1日1回抽選する手順。11月4日10時～11月30日23:59 JST、最大100ココポ。",
+      "ココポは独自ポイントで、Amazon／QUO／現金ではない。トッピングチケットの利用にはカレー注文が必要で、グッズ交換も必要ポイント数が別途設定される。"
+    ],
+    "checkedAt": "2026-11-04T23:45:52.356215+00:00",
+    "evidenceExcerpt": "公式 LP のくじ3手順・無料利用 FAQ とポイント利用ルールを確認。通常のレシートでのポイント獲得とくじは別だが、アプリ内固有規約は未確認であり、独自ポイントを通常金券として open に追加しない。",
+    "entryUrl": "https://www.ichibanya.co.jp/cocopo/",
+    "evidenceUrls": [
+      "https://www.ichibanya.co.jp/cocopo/",
+      "https://prtimes.jp/main/html/rd/p/000000087.000108441.html"
+    ],
+    "appUrls": [
+      "https://apps.apple.com/jp/app/id611124786",
+      "https://play.google.com/store/apps/details?id=com.cocoichiapp.app&hl=ja"
+    ]
+  },
+  {
+    "sourceKey": "fmaichi:https://fma.co.jp/f/present/?id=YQuVa3mg",
+    "officialUrl": "https://fma.co.jp/f/present/?id=YQuVa3mg",
+    "sourceUrl": "https://fma.co.jp/f/present/",
+    "title": "『一宮西病院 presents 虹色パズル』抽選で毎月1名様にAmazonギフトカード5000円分をプレゼント!",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "公式「虹色パズル」専用フォームで氏名・住所・電話・メール等の通常応募者情報を入力する。",
+      "番組向けの短い「モヤモヤ」メッセージを添える。応募フォームではメッセージ欄は任意で、作品選考・番組採用が当選条件ではない。",
+      "毎月1名に Amazon ギフトカード5000円分。全都道府県を選べ、職業も会社員・学生・主婦・その他等を選択可能。購入・病院利用・放送コードの入力欄はない。",
+      "月ごとの定例抽選を1企画として扱う。公式ページに具体的な月内締切時刻は記載されていない。"
+    ],
+    "checkedAt": "2026-11-04T23:47:01.115604+00:00",
+    "evidenceExcerpt": "現在の主催局プレゼント掲載と実応募フォーム全文を確認。メッセージ送信者から毎月抽選であり、採用者限定ではない。フォームの入力項目・注意事項に購入、来店、既存契約、対象地域や職業の限定はない。",
+    "entryUrl": "https://fma.co.jp/f/present/oubo/?id=YQuVa3mg"
+  },
+  {
+    "sourceKey": "fmaichi:https://fma.co.jp/f/present/?id=wgOmxlHK",
+    "officialUrl": "https://fma.co.jp/f/present/?id=wgOmxlHK",
+    "sourceUrl": "https://fma.co.jp/f/present/",
+    "title": "中電シーティーアイ Welcome Generation 毎週1名様にAmazonギフトカード1,000円分プレゼント!",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "公式 Welcome Generation 専用応募フォームで氏名・国内住所・電話・メール等の通常応募者情報を入力する。",
+      "「頑張っていること」のメッセージと学校名・学部名はいずれも任意。学生・中部在住である必要はない。",
+      "毎週1名に Amazon ギフトカード1000円分。全都道府県と学生以外の職業も選択可能で、放送キーワード・作品や写真・購入実績の入力はない。",
+      "毎週の定例抽選を1企画として扱う。個別の締切曜日・時刻は公式ページに明記されていない。"
+    ],
+    "checkedAt": "2026-11-04T23:47:01.245627+00:00",
+    "evidenceExcerpt": "主催局の募集本文と実フォーム全文を確認。中部の現役学生は番組の取材対象の説明であり、応募者限定条件ではない。フォームは学校名とメッセージを明示的に任意とし、全都道府県・幅広い職業を選べる。",
+    "entryUrl": "https://fma.co.jp/f/present/oubo/?id=wgOmxlHK"
   }
 ]
