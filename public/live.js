@@ -8,7 +8,7 @@ const wishMatches=c=>wishes.filter(w=>normal([c.title,c.brand,c.summary,c.catego
 const openActive=()=>active().filter(c=>c.entryConditions?.status==='open');
 const matched=()=>openActive().filter(c=>wishMatches(c).length);
 const dateText=d=>d?`${Number(d.slice(5,7))}/${Number(d.slice(8,10))}`:'公式で確認';
-const timeText=d=>d?new Intl.DateTimeFormat('ja-JP',{timeZone:'Asia/Tokyo',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'}).format(new Date(d)):'未確認';
+const timeText=d=>/^\d{4}-\d{2}-\d{2}$/.test(d||'')?`${Number(d.slice(5,7))}/${Number(d.slice(8,10))}`:d?new Intl.DateTimeFormat('ja-JP',{timeZone:'Asia/Tokyo',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'}).format(new Date(d)):'未確認';
 const relativeTime=d=>{let m=Math.max(0,Math.floor((Date.now()-new Date(d).getTime())/60000));return m<1?'たった今':m<60?`${m}分前`:m<1440?`${Math.floor(m/60)}時間前`:`${Math.floor(m/1440)}日前`;};
 const freeLabel=c=>c.free===true?'購入不要':c.free===false?'購入・利用条件あり':'購入条件は公式へ';
 async function api(path,body,method='POST'){const r=await fetch('/api/'+path,{method:body===undefined?'GET':method,headers:body===undefined?{}:{'content-type':'application/json'},...(body===undefined?{}:{body:JSON.stringify(body)})});let data;try{data=await r.json();}catch{throw new Error('接続できませんでした。ページを再読み込みしてください。');}if(!r.ok){if(r.status===401)throw new Error('ログインが必要です');throw new Error(data.error||'処理に失敗しました');}return data;}
