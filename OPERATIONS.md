@@ -54,3 +54,8 @@ Default recommendations, search and new wish notifications include only `open` c
 `lib/entry-reviews.json` records the exact official URL, source key/title, reviewed requirements, free steps, primary source URL and review timestamp. Recheck the complete terms before marking `open`; maintain this evidence as campaigns change. `entry-conditions.ts` derives conservative labels from available evidence for older records. Cards display labels and details expose each requirement, source and steps. Unknown detail stays unknown. Existing conditional entries remain available through explicit filters and saved history.
 
 The refresh writer uses `open_new`: existing records can be revalidated in any state; new conditional/unknown records are skipped. New site notices, wish backfill and browser push enforce the same condition policy. The status endpoint reports open/conditional/unknown counts. The hourly cursor updater is unchanged; daily source discovery prioritizes reviewed simple campaigns rather than growing conditional counts.
+
+
+## Continued official review
+
+Review records now retain verified entry URLs and precise basic steps. A verified review overrides older purchase flags. Expiry corrections from official terms apply to active reads, status counts, saved history and notification guards. Existing campaigns newly confirmed as simple are matched once through the next refresh; notification uniqueness prevents repeated delivery. The official LINE-only Starbucks eGift campaign is recurring, with previous-month friends eligible for the following draw. Yomipo uses an ordinary public detail page for the reviewed nationwide gift-card route. No visitor data or submission automation is part of these changes.

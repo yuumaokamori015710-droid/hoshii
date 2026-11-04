@@ -12,7 +12,8 @@
       "当選時のDMを受信できる状態にする。未成年者は親権者同意"
     ],
     "checkedAt": "2026-11-04T14:43:59.614503+00:00",
-    "evidenceExcerpt": "応募資格は「Xアカウントをお持ちの方」「公式アカウントをフォロー」「指定の投稿をリポスト」。印刷購入・婚姻状況を資格にしていないことを応募資格全文で確認。"
+    "evidenceExcerpt": "応募資格は「Xアカウントをお持ちの方」「公式アカウントをフォロー」「指定の投稿をリポスト」。印刷購入・婚姻状況を資格にしていないことを応募資格全文で確認。",
+    "entryUrl": "https://x.com/myseries_ss/status/2105512301881176365"
   },
   {
     "sourceKey": "prtimes-broad:27316:347",
@@ -27,7 +28,8 @@
       "当選時のDMを受信できる状態にする。未成年者は親権者同意"
     ],
     "checkedAt": "2026-11-04T14:43:59.604207+00:00",
-    "evidenceExcerpt": "第12弾の応募資格全文は無料X登録、公式フォロー、対象リポスト、公開設定。コンビニ印刷・商品購入・家族写真の投稿は必須ではない。"
+    "evidenceExcerpt": "第12弾の応募資格全文は無料X登録、公式フォロー、対象リポスト、公開設定。コンビニ印刷・商品購入・家族写真の投稿は必須ではない。",
+    "entryUrl": "https://x.com/myseries_ss/status/2117071899171922264"
   },
   {
     "sourceKey": "prtimes-gifts:62024:183",
@@ -42,7 +44,8 @@
       "1人1回答を送信。メールマガジン登録は「登録しない」を選択可能"
     ],
     "checkedAt": "2026-11-04T14:43:59.883988+00:00",
-    "evidenceExcerpt": "フォームに「取得していなくても構いません」「資格・検定をまだ取得していない方は『なし』」と明記。職業は学生・主婦主夫・その他も選択でき、職業限定ではない。"
+    "evidenceExcerpt": "フォームに「取得していなくても構いません」「資格・検定をまだ取得していない方は『なし』」と明記。職業は学生・主婦主夫・その他も選択でき、職業限定ではない。",
+    "entryUrl": "https://jpsk.jp/mailform/ranking2027.html"
   },
   {
     "sourceKey": "prtimes-gifts:179742:62",
@@ -57,21 +60,24 @@
       "任意の返信による当選確率アップは不要"
     ],
     "checkedAt": "2026-11-04T14:43:59.762684+00:00",
-    "evidenceExcerpt": "公式参加方法は「公式Xアカウントをフォローして、対象のキャンペーンポストをリポスト」。返信は当選確率UPとして別記され、ゲーム登録・購入・プレイの条件はない。"
+    "evidenceExcerpt": "公式参加方法は「公式Xアカウントをフォローして、対象のキャンペーンポストをリポスト」。返信は当選確率UPとして別記され、ゲーム登録・購入・プレイの条件はない。",
+    "entryUrl": "https://x.com/LINE_OMAREN_JP"
   },
   {
     "sourceKey": "prtimes-gifts:173726:111",
     "officialUrl": "https://blog.pixai.art/ja/pixai-halloween-contest-2026-a-night-at-higan-inn-ja/",
     "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000111.000173726.html",
     "title": "PixAI「今宵、彼岸屋にて」X抽選賞",
-    "status": "open",
-    "requirements": [],
+    "status": "unknown",
+    "requirements": [
+      "公式ブログの対象投稿リンクが未置換のため、X抽選賞の実際の応募対象投稿を特定できていません。"
+    ],
     "steps": [
       "X上の公式コンテスト告知投稿を開く",
       "対象投稿にいいねと通常リポスト"
     ],
-    "checkedAt": "2026-11-04T14:44:00.985445+00:00",
-    "evidenceExcerpt": "X抽選賞欄に「いいね&リポストするだけで応募完了」「作品の投稿は必要ありません」と明記。創作審査部門や有料会員施策の条件をこの抽選へ適用しない。"
+    "checkedAt": "2026-11-04T15:26:05.925087+00:00",
+    "evidenceExcerpt": "公式ブログのX参加リンクが [CONTEST_POST_ID_JP] のまま。公式Xで確認した別企画「不思議な夜の物語」の抽選投稿とは区別し、彼岸屋の応募先確認まで保留。"
   },
   {
     "sourceKey": "prtimes-gifts:110794:33",
@@ -86,7 +92,8 @@
       "診断後の案内に沿って抽選応募"
     ],
     "checkedAt": "2026-11-04T14:44:00.165023+00:00",
-    "evidenceExcerpt": "主催本文は「商品購入は不要」「すでにLINE公式アカウントを友だち追加している方も参加できます」と明記。診断3問と応募以外の来店・地域・職業等の条件はない。"
+    "evidenceExcerpt": "主催本文は「商品購入は不要」「すでにLINE公式アカウントを友だち追加している方も参加できます」と明記。診断3問と応募以外の来店・地域・職業等の条件はない。",
+    "entryUrl": "https://liff.line.me/2006392084-PjRA3pkE/landing?follow=%40415odzrz&lp=CS2NDB&liff_id=2006392084-PjRA3pkE"
   },
   {
     "sourceKey": "prtimes-gifts:87703:238",
@@ -100,7 +107,8 @@
       "第2弾の対象投稿をリポスト"
     ],
     "checkedAt": "2026-11-04T14:44:00.275338+00:00",
-    "evidenceExcerpt": "「公式Xアカウントをフォローし、対象のポストをリポストするだけで応募が完了」と明記。ゲーム事前登録は後続の別項目で、抽選の参加方法には含まれない。"
+    "evidenceExcerpt": "「公式Xアカウントをフォローし、対象のポストをリポストするだけで応募が完了」と明記。ゲーム事前登録は後続の別項目で、抽選の参加方法には含まれない。",
+    "entryUrl": "https://x.com/chaosma_PR/status/2113536530644181028"
   },
   {
     "sourceKey": "prtimes-gifts:108160:39",
@@ -114,7 +122,8 @@
       "実写ドラマ放送記念の対象投稿をリポスト"
     ],
     "checkedAt": "2026-11-04T14:44:00.433887+00:00",
-    "evidenceExcerpt": "抽選名は「ドラマ化記念 フォロー&リポストキャンペーン」。有料電子書籍購入やドラマ視聴キーワードは条件に含まれず、各書店の無料話施策とは別のX抽選。"
+    "evidenceExcerpt": "抽選名は「ドラマ化記念 フォロー&リポストキャンペーン」。有料電子書籍購入やドラマ視聴キーワードは条件に含まれず、各書店の無料話施策とは別のX抽選。",
+    "entryUrl": "https://x.com/comic_nanitozo"
   },
   {
     "sourceKey": "prtimes-gifts:114007:297",
@@ -129,7 +138,8 @@
       "抽選確認のためのX認証を行う"
     ],
     "checkedAt": "2026-11-04T14:44:00.612077+00:00",
-    "evidenceExcerpt": "対象者は「当社Xアカウントをフォローの上、キャンペーン投稿をリポストした方」。応募方法2項目と注意事項全文で口座保有・開設・入金・取引を条件にしていないことを確認。"
+    "evidenceExcerpt": "対象者は「当社Xアカウントをフォローの上、キャンペーン投稿をリポストした方」。応募方法2項目と注意事項全文で口座保有・開設・入金・取引を条件にしていないことを確認。",
+    "entryUrl": "https://x.com/Matsui_PR/status/2112015891890413839"
   },
   {
     "sourceKey": "prtimes-gifts:80650:637",
@@ -143,7 +153,8 @@
       "10周年フォロー＆リポスト対象投稿をリポスト"
     ],
     "checkedAt": "2026-11-04T14:44:00.765693+00:00",
-    "evidenceExcerpt": "QUOカード抽選は「公式Xをフォローして、対象のポスト」のフォロー＆リポスト企画。ログイン・育成等はゲーム内特典の別項目で、QUOカード抽選の必須手順ではない。"
+    "evidenceExcerpt": "QUOカード抽選は「公式Xをフォローして、対象のポスト」のフォロー＆リポスト企画。ログイン・育成等はゲーム内特典の別項目で、QUOカード抽選の必須手順ではない。",
+    "entryUrl": "https://x.com/dabi_mas"
   },
   {
     "sourceKey": "prtimes-broad:19896:921",
@@ -157,7 +168,8 @@
       "ココアで冬はじめキャンペーンの対象投稿をリポスト"
     ],
     "checkedAt": "2026-11-04T14:44:00.903109+00:00",
-    "evidenceExcerpt": "主催本文は「公式Xアカウントをフォロー、対象のポストをリポストいただいた方」からえらべるPay抽選と明記。ココア購入やCM視聴キーワードを求めていない。"
+    "evidenceExcerpt": "主催本文は「公式Xアカウントをフォロー、対象のポストをリポストいただいた方」からえらべるPay抽選と明記。ココア購入やCM視聴キーワードを求めていない。",
+    "entryUrl": "https://x.com/Morinaga_angel"
   },
   {
     "sourceKey": "prtimes-tourism:89379:17",
@@ -191,7 +203,8 @@
       "賞品抽選に必要な連絡先等と確認事項を入力して送信"
     ],
     "checkedAt": "2026-11-04T14:44:02.066399+00:00",
-    "evidenceExcerpt": "公開フォーム内の2ページ目データに「応募規約に同意していただいた日本国内に在住の方」と明記。岡山との縁は「特にご縁なし」も選択可能。国内在住条件を隠さずconditionalとした。"
+    "evidenceExcerpt": "公開フォーム内の2ページ目データに「応募規約に同意していただいた日本国内に在住の方」と明記。岡山との縁は「特にご縁なし」も選択可能。国内在住条件を隠さずconditionalとした。",
+    "entryUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeq7Gl733xq0_Mp-Id5k4c5ngQOvmC1eKPjDEXisEPYhLTfew/viewform?usp=send_form"
   },
   {
     "sourceKey": "prtimes-finance:136795:55",
@@ -205,7 +218,8 @@
       "リリース開始記念Xキャンペーンの対象投稿をリポスト"
     ],
     "checkedAt": "2026-11-04T14:44:01.200797+00:00",
-    "evidenceExcerpt": "該当抽選は「公式Xをフォローし、対象ポストをリポストすることで応募できます」。診断シェア・人気投票・ゲームログインは別企画で、この抽選には必要ない。"
+    "evidenceExcerpt": "該当抽選は「公式Xをフォローし、対象ポストをリポストすることで応募できます」。診断シェア・人気投票・ゲームログインは別企画で、この抽選には必要ない。",
+    "entryUrl": "https://x.com/tagatame_pm"
   },
   {
     "sourceKey": "prtimes-finance:44804:287",
@@ -220,7 +234,8 @@
       "オートリプライの抽選結果を確認"
     ],
     "checkedAt": "2026-11-04T14:44:01.275698+00:00",
-    "evidenceExcerpt": "公式の「参加方法」全文はフォロー、対象リポスト、オートリプライ受信の3項目。アプリのチュートリアルクリアはゲーム内事前登録特典の条件で、Amazon抽選の条件ではない。"
+    "evidenceExcerpt": "公式の「参加方法」全文はフォロー、対象リポスト、オートリプライ受信の3項目。アプリのチュートリアルクリアはゲーム内事前登録特典の条件で、Amazon抽選の条件ではない。",
+    "entryUrl": "https://x.com/spalik_jp"
   },
   {
     "sourceKey": "prtimes-finance:9745:159",
@@ -234,7 +249,8 @@
       "第2弾の対象投稿を通常リポスト"
     ],
     "checkedAt": "2026-11-04T14:44:01.463734+00:00",
-    "evidenceExcerpt": "主催本文は「口座開設や賞品の購入の必要はありません」と明記。参加方法は公式Xの相互フォローと通常リポストで、投資・アプリ利用・番組視聴を必須にしていない。"
+    "evidenceExcerpt": "主催本文は「口座開設や賞品の購入の必要はありません」と明記。参加方法は公式Xの相互フォローと通常リポストで、投資・アプリ利用・番組視聴を必須にしていない。",
+    "entryUrl": "https://x.com/fxnavi_neko"
   },
   {
     "sourceKey": "prtimes-finance:15055:189",
@@ -248,7 +264,8 @@
       "11周年フォロー＆リポスト対象投稿を期間内にリポスト"
     ],
     "checkedAt": "2026-11-04T14:44:01.625637+00:00",
-    "evidenceExcerpt": "えらべるマネー抽選の概要は公式Xフォローと対象投稿リポスト。ゲームのオーナーID・ログイン画面投稿は次のオーナーヒストリア企画の条件で、この金券抽選には含まれない。"
+    "evidenceExcerpt": "えらべるマネー抽選の概要は公式Xフォローと対象投稿リポスト。ゲームのオーナーID・ログイン画面投稿は次のオーナーヒストリア企画の条件で、この金券抽選には含まれない。",
+    "entryUrl": "https://x.com/Venus11Vivid"
   },
   {
     "sourceKey": "prtimes-finance:103381:14",
@@ -264,7 +281,8 @@
       "応募規約に同意して送信。商品購入・レシート・ダンス投稿は不要"
     ],
     "checkedAt": "2026-11-04T14:44:01.824342+00:00",
-    "evidenceExcerpt": "公式LPに「必要事項を入力しご応募ください」と明記。一方で注意事項に「日本国内に在住の方で、且つ賞品のお届け先が日本国内」と明記されるため、地域要件を隠さずconditionalとした。"
+    "evidenceExcerpt": "公式LPに「必要事項を入力しご応募ください」と明記。一方で注意事項に「日本国内に在住の方で、且つ賞品のお届け先が日本国内」と明記されるため、地域要件を隠さずconditionalとした。",
+    "entryUrl": "https://cxhub.jp/r/futaba2026/"
   },
   {
     "sourceKey": "prtimes-tourism:53539:358",
@@ -343,5 +361,1574 @@
     ],
     "checkedAt": "2026-11-04",
     "evidenceExcerpt": "公式の参加方法・応募条件を確認。"
+  },
+  {
+    "sourceKey": "denki-erabi:line-friends-egift",
+    "officialUrl": "https://denki-erabi.jp/line-campaign",
+    "sourceUrl": "https://denki-erabi.jp/line-campaign",
+    "title": "LINE友だち追加キャンペーン｜スターバックス eGift 500円分",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "公式LINE「えらびレンジャー｜くらしのお得情報」を友だち追加する。購入・電力契約の申込みは不要",
+      "前月末までの友だちから毎月10名を抽選。今追加する場合は翌月以降の抽選対象",
+      "ブロックせず当選メッセージを受け取り、案内後14日以内にスタバeGiftを受け取る"
+    ],
+    "checkedAt": "2026-11-04T15:26:05.925087+00:00",
+    "evidenceExcerpt": "公式キャンペーン規約の主催・応募方法・賞品・期間・抽選対象・無効条件を全て確認。LINE追加だけで応募、購入・申込は不要と明記。",
+    "entryUrl": "https://line.me/R/ti/p/@820iliiz"
+  },
+  {
+    "sourceKey": "yahoo:https://stamp.yahoo.co.jp/stamp/exc-ebj202611st",
+    "officialUrl": "https://stamp.yahoo.co.jp/stamp/exc-ebj202611st",
+    "sourceUrl": "https://toku.yahoo.co.jp/",
+    "title": "「マンガお得スタンプラリー」キャンペーン",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "無料のYahoo! JAPAN IDでログインする",
+      "本ページの「スタンプを獲得する」からebookjapanへ訪問し、1日1個スタンプを獲得",
+      "スタンプ数に応じた「くじを引く」を11月30日23:59までに押す。漫画の購入・読了は不要",
+      "PayPayポイント当選分を使う場合はYahoo! JAPAN IDとPayPayアカウントを連携する。銀行口座登録・入金・決済は応募条件にない"
+    ],
+    "checkedAt": "2026-11-04T15:12:54.153766+00:00",
+    "evidenceExcerpt": "キャンペーンについて・注意事項の全文を確認。対象は指定ボタンからのサイト訪問で、購入や読書は条件に記載されていない。11月2日10:00〜11月30日23:59。",
+    "entryUrl": "https://stamp.yahoo.co.jp/stamp/exc-ebj202611st"
+  },
+  {
+    "sourceKey": "yahoo:https://stamp.yahoo.co.jp/stamp/shpcircuit202611",
+    "officialUrl": "https://stamp.yahoo.co.jp/stamp/shpcircuit202611",
+    "sourceUrl": "https://toku.yahoo.co.jp/",
+    "title": "おトクサーキットくじ",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "無料のYahoo! JAPAN IDでログインする",
+      "本ページのスタンプ対象商品から商品ページを7つ見る",
+      "7個たまったらくじを引く。1日7個・1回、11月22日11:59まで",
+      "商品購入は不要。ポイントは利用先・有効期間が限定される",
+      "PayPayポイント当選分を使う場合はYahoo! JAPAN IDとPayPayアカウントを連携する。銀行口座登録・入金・決済は応募条件にない"
+    ],
+    "checkedAt": "2026-11-04T15:12:54.141369+00:00",
+    "evidenceExcerpt": "スタンプ獲得方法は対象の商品ページの閲覧と7個での抽選。商品注文・決済条件なし。11月1日12:00〜11月22日11:59。",
+    "entryUrl": "https://stamp.yahoo.co.jp/stamp/shpcircuit202611"
+  },
+  {
+    "sourceKey": "yahoo:https://toku.yahoo.co.jp/shptoku202611/lot",
+    "officialUrl": "https://toku.yahoo.co.jp/shptoku202611/lot",
+    "sourceUrl": "https://toku.yahoo.co.jp/",
+    "title": "Yahoo!ショッピングのおトクなクーポンが当たるくじ",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "無料のYahoo! JAPAN IDでログインする",
+      "キャンペーンページからくじを引く。1日5回、11月30日11:59まで",
+      "クーポン当選分の使用には買い物が必要だが、ポイント賞の受取に買い物は不要",
+      "PayPayポイント当選分を使う場合はYahoo! JAPAN IDとPayPayアカウントを連携する。銀行口座登録・入金・決済は応募条件にない"
+    ],
+    "checkedAt": "2026-11-04T15:12:54.111655+00:00",
+    "evidenceExcerpt": "ポイント賞についての項目は、Yahoo!ショッピングの利用有無にかかわらず付与すると明示。抽選は毎日5回。11月1日12:00〜11月30日11:59。",
+    "entryUrl": "https://toku.yahoo.co.jp/shptoku202611/lot"
+  },
+  {
+    "sourceKey": "yahoo:https://toku.yahoo.co.jp/kewpieblueflag202610/lot",
+    "officialUrl": "https://toku.yahoo.co.jp/kewpieblueflag202610/lot",
+    "sourceUrl": "https://toku.yahoo.co.jp/",
+    "title": "毎日引ける! ハズレなし! キユーピーウエルネスの人気商品などが当たるチャンス!",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "無料のYahoo! JAPAN IDでログインする",
+      "公式ページで1日1回くじを引く。12月21日11:59まで",
+      "現品賞当選時は12月31日23:00までに配送手続きを行う。日本国内発送",
+      "割引クーポンの使用に必要な購入と、現品賞の応募条件を区別する"
+    ],
+    "checkedAt": "2026-11-04T15:12:54.158614+00:00",
+    "evidenceExcerpt": "本キャンペーンについて・配送を伴う賞品について・ご注意を確認。無料IDの1日1回抽選で現品1年分が当たり、購入条件なし。10月30日12:00〜12月21日11:59。",
+    "entryUrl": "https://toku.yahoo.co.jp/kewpieblueflag202610/lot"
+  },
+  {
+    "sourceKey": "yahoo:https://toku.yahoo.co.jp/tpointevery/lot",
+    "officialUrl": "https://toku.yahoo.co.jp/tpointevery/lot",
+    "sourceUrl": "https://toku.yahoo.co.jp/",
+    "title": "毎日Vポイントくじ",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "無料のYahoo! JAPAN IDでログインする",
+      "無料のVポイント利用手続きを行い、V会員番号をYahoo! JAPAN IDへ登録する",
+      "1日1回くじを引く。クレジットカード・銀行口座は不要",
+      "15歳以下の利用手続きには保護者の同意が必要"
+    ],
+    "checkedAt": "2026-11-04T15:12:54.920765+00:00",
+    "evidenceExcerpt": "くじ詳細はV会員番号登録と1日1回の抽選を条件とする。リンク先の公式手順はVカードを持っていない場合のオンライン手続きも掲載し、クレジットカード番号とは別と明示。終了日指定のない継続企画。",
+    "entryUrl": "https://toku.yahoo.co.jp/tpointevery/lot"
+  },
+  {
+    "sourceKey": "yahoo:https://takarabako.yahoo.co.jp/?kuji_layout=a&kuji_expand=1&modal=off",
+    "officialUrl": "https://takarabako.yahoo.co.jp/?kuji_layout=a&kuji_expand=1&modal=off",
+    "sourceUrl": "https://toku.yahoo.co.jp/",
+    "title": "Yahoo!おトク宝箱 - ヤフーのお得なクーポン満載",
+    "status": "unknown",
+    "requirements": [
+      "宝箱くじの実際の参加条件・景品条件の本文を確認できない"
+    ],
+    "steps": [
+      "公式ページの「宝箱くじ詳細」「各景品の注意事項」を確認してから参加する"
+    ],
+    "checkedAt": "2026-11-04T15:12:55.009033+00:00",
+    "evidenceExcerpt": "公開HTMLではログイン案内と詳細の空コンテナまで取得。規約本文が別途読み込まれるため、購入不要・対象者制限を十分に裏付けられずopenへ変更しない。"
+  },
+  {
+    "sourceKey": "yahoo:https://toku.yahoo.co.jp/cranegame202611/lot",
+    "officialUrl": "https://toku.yahoo.co.jp/cranegame202611/lot",
+    "sourceUrl": "https://toku.yahoo.co.jp/",
+    "title": "ズバトククレーンゲーム",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "無料のYahoo! JAPAN IDでログインする",
+      "公式ページで「プレイする」を押し、クレーンゲームに参加する。1日3回",
+      "12月6日23:59までに参加し、「ゲット」の結果ならPayPayポイント1円相当",
+      "PayPayポイント当選分を使う場合はYahoo! JAPAN IDとPayPayアカウントを連携する。銀行口座登録・入金・決済は応募条件にない"
+    ],
+    "checkedAt": "2026-11-04T15:12:54.918611+00:00",
+    "evidenceExcerpt": "本キャンペーンについて・ご注意を確認。IDごと1日3回のゲーム操作で参加し、商品購入・有料プレイ・口座の条件はない。11月1日0:00〜12月6日23:59。",
+    "entryUrl": "https://toku.yahoo.co.jp/cranegame202611/lot"
+  },
+  {
+    "sourceKey": "yahoo:https://toku.yahoo.co.jp/himokuji202610/lot",
+    "officialUrl": "https://toku.yahoo.co.jp/himokuji202610/lot",
+    "sourceUrl": "https://toku.yahoo.co.jp/",
+    "title": "ズバトク毎日ひもくじ",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "無料のYahoo! JAPAN IDでログインする",
+      "公式ページでひもくじを引く。1日3回、11月24日23:59まで",
+      "「当たり」の結果ならPayPayポイント1円相当",
+      "PayPayポイント当選分を使う場合はYahoo! JAPAN IDとPayPayアカウントを連携する。銀行口座登録・入金・決済は応募条件にない"
+    ],
+    "checkedAt": "2026-11-04T15:12:54.923260+00:00",
+    "evidenceExcerpt": "本キャンペーンについて・ご注意を確認。参加はIDごと1日3回のくじ操作のみで購入・決済条件なし。10月20日0:00〜11月24日23:59。",
+    "entryUrl": "https://toku.yahoo.co.jp/himokuji202610/lot"
+  },
+  {
+    "sourceKey": "yahoo:https://toku.yahoo.co.jp/omikuji202610/lot",
+    "officialUrl": "https://toku.yahoo.co.jp/omikuji202610/lot",
+    "sourceUrl": "https://toku.yahoo.co.jp/",
+    "title": "ズバトク毎日おみくじ",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "無料のYahoo! JAPAN IDでログインする",
+      "公式ページで1日1回おみくじを引く。11月17日23:59まで",
+      "ズバ吉またはズバ凶の結果ならPayPayポイント1円相当",
+      "PayPayポイント当選分を使う場合はYahoo! JAPAN IDとPayPayアカウントを連携する。銀行口座登録・入金・決済は応募条件にない"
+    ],
+    "checkedAt": "2026-11-04T15:12:55.624599+00:00",
+    "evidenceExcerpt": "本キャンペーンについて・ご注意を確認。IDごと1日1回のおみくじで参加。購入・有料会員契約なし。10月13日0:00〜11月17日23:59。",
+    "entryUrl": "https://toku.yahoo.co.jp/omikuji202610/lot"
+  },
+  {
+    "sourceKey": "yahoo:https://toku.yahoo.co.jp/baseball202610/lot",
+    "officialUrl": "https://toku.yahoo.co.jp/baseball202610/lot",
+    "sourceUrl": "https://toku.yahoo.co.jp/",
+    "title": "ズバトク野球",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "無料のYahoo! JAPAN IDでログインする",
+      "公式ページで1日2回までバットを振る。11月5日23:59まで",
+      "ホームランまたはすごい空振りならPayPayポイント1円相当",
+      "PayPayポイント当選分を使う場合はYahoo! JAPAN IDとPayPayアカウントを連携する。銀行口座登録・入金・決済は応募条件にない"
+    ],
+    "checkedAt": "2026-11-04T15:12:55.606253+00:00",
+    "evidenceExcerpt": "本キャンペーンについて・ご注意を確認。バットを振るゲームが応募操作で購入・有料プレイ条件なし。10月1日0:00〜11月5日23:59、確認時点の11月5日0時台は受付期間内。",
+    "entryUrl": "https://toku.yahoo.co.jp/baseball202610/lot"
+  },
+  {
+    "sourceKey": "yahoo:https://stamp.yahoo.co.jp/stamp/checkin",
+    "officialUrl": "https://stamp.yahoo.co.jp/stamp/checkin",
+    "sourceUrl": "https://toku.yahoo.co.jp/",
+    "title": "朝昼夜チェックインくじ",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "無料のYahoo! JAPAN IDでログインする",
+      "公式ページの表示ミッションから指定ページを開き、指定バナーをタップする",
+      "3ミッションクリアごとに1回、1日最大3回抽選。朝昼夜で切替、11月30日まで",
+      "レシート投稿や商品購入をせず、表示された閲覧・バナータップの経路を利用する",
+      "PayPayポイント当選分を使う場合はYahoo! JAPAN IDとPayPayアカウントを連携する。銀行口座登録・入金・決済は応募条件にない"
+    ],
+    "checkedAt": "2026-11-04T15:12:55.662902+00:00",
+    "evidenceExcerpt": "朝昼夜チェックインくじについては、指定ページ・アンケート案内ページ等への訪問後のバナータップでスタンプを付与すると説明。確認した公開ミッションも閲覧操作で、注文・入金・レシート提出条件なし。11月の獲得期間内。",
+    "entryUrl": "https://stamp.yahoo.co.jp/stamp/checkin"
+  },
+  {
+    "sourceKey": "yahoo:https://stamp.yahoo.co.jp/stamp/yjappbonus",
+    "officialUrl": "https://stamp.yahoo.co.jp/stamp/yjappbonus",
+    "sourceUrl": "https://toku.yahoo.co.jp/",
+    "title": "【Yahoo! JAPANアプリ限定】毎日ボーナスくじ",
+    "status": "unknown",
+    "requirements": [
+      "Yahoo! JAPANアプリ内にだけ表示される現在のミッション条件が未確認"
+    ],
+    "steps": [
+      "無料のYahoo! JAPAN IDでログインする",
+      "最新の無料Yahoo! JAPANアプリでミッション内容を確認する",
+      "初回スタンプまたは5の倍数ごとに抽選できるが、ミッション達成条件を確認してから参加する"
+    ],
+    "checkedAt": "2026-11-04T15:12:55.695537+00:00",
+    "evidenceExcerpt": "公開規約にアプリ・ミッション達成・初回/5個ごとの抽選を確認。現在の具体的ミッションはアプリ内のみとあり、公開HTMLから購入不要の経路を確定できないためunknown。獲得期間10月1日〜11月30日。"
+  },
+  {
+    "sourceKey": "yahoo:https://toku.yahoo.co.jp/exc-ebj202610mc/lot",
+    "officialUrl": "https://toku.yahoo.co.jp/exc-ebj202610mc/lot",
+    "sourceUrl": "https://toku.yahoo.co.jp/",
+    "title": "「マンガコラボくじ」キャンペーン",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "無料のYahoo! JAPAN IDでログインする",
+      "公式キャンペーンページから1日1回くじを引く。11月18日23:59まで",
+      "マンガ読書・購入はポイント賞の応募条件にない",
+      "当選したLINEマンガコインはLINEマンガアプリでコード入力、その他特典も各受取期限を守る",
+      "PayPayポイント当選分を使う場合はYahoo! JAPAN IDとPayPayアカウントを連携する。銀行口座登録・入金・決済は応募条件にない"
+    ],
+    "checkedAt": "2026-11-04T15:12:56.280274+00:00",
+    "evidenceExcerpt": "期間・賞品・進呈・注意事項の全文を確認。1日1回のくじで参加。マンガ無料読書の案内はあるが読了や購入を参加条件としていない。10月15日10:00〜11月18日23:59。",
+    "entryUrl": "https://toku.yahoo.co.jp/exc-ebj202610mc/lot"
+  },
+  {
+    "sourceKey": "yahoo:https://toku.yahoo.co.jp/exc-saikoropon/lot",
+    "officialUrl": "https://toku.yahoo.co.jp/exc-saikoropon/lot",
+    "sourceUrl": "https://toku.yahoo.co.jp/",
+    "title": "サイコロポン ~毎日もらえるPayPayポイント(期間限定)~",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "無料のYahoo! JAPAN IDでログインする",
+      "「今すぐ挑戦」を押してサイコロ抽選に参加する。1日1回、11月30日まで",
+      "PayPayポイントは期間・利用先限定で、当選額と期限を確認する",
+      "PayPayポイント当選分を使う場合はYahoo! JAPAN IDとPayPayアカウントを連携する。銀行口座登録・入金・決済は応募条件にない"
+    ],
+    "checkedAt": "2026-11-04T15:12:56.331291+00:00",
+    "evidenceExcerpt": "サイコロポン概要・賞品・注意事項を確認。ログインとボタン操作で抽選、購入・契約・決済条件なし。賞品対象期間は11月1日0:00〜11月30日23:59。",
+    "entryUrl": "https://toku.yahoo.co.jp/exc-saikoropon/lot"
+  },
+  {
+    "sourceKey": "yahoo:https://toku.yahoo.co.jp/exc-ebj202610/lot",
+    "officialUrl": "https://toku.yahoo.co.jp/exc-ebj202610/lot",
+    "sourceUrl": "https://toku.yahoo.co.jp/",
+    "title": "無料マンガ読んだら引けるくじ",
+    "status": "conditional",
+    "requirements": [
+      "無料作品を最後まで読み、読了後の専用バナー経由で戻る必要がある"
+    ],
+    "steps": [
+      "無料のYahoo! JAPAN IDでログインする",
+      "ebookjapanのWeb版で対象の無料作品を読み、読了後のバナーから戻る",
+      "獲得当日中にくじを引く。1日3回まで、11月25日23:59まで",
+      "有料購入分とebookjapanアプリでの読書は対象外",
+      "PayPayポイント当選分を使う場合はYahoo! JAPAN IDとPayPayアカウントを連携する。銀行口座登録・入金・決済は応募条件にない"
+    ],
+    "checkedAt": "2026-11-04T15:12:56.334366+00:00",
+    "evidenceExcerpt": "購入不要だが無料作品の読書完了が必須なので、単純な会員登録・SNS操作だけで応募できる枠にはしない。公式本文は10月22日10:00〜11月25日23:59、旧catalogの11月26日10:00は次回開始時刻と混同している。",
+    "entryUrl": "https://toku.yahoo.co.jp/exc-ebj202610/lot",
+    "deadlineCorrection": "2026-11-25T14:59:00.000Z"
+  },
+  {
+    "sourceKey": "yahoo:https://toku.yahoo.co.jp/shplot/lot",
+    "officialUrl": "https://toku.yahoo.co.jp/shplot/lot",
+    "sourceUrl": "https://toku.yahoo.co.jp/",
+    "title": "その場で当たる! 毎日ルーレット - Yahoo!ショッピング",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "無料のYahoo! JAPAN IDでログインする",
+      "無料のYahoo!ショッピングアプリのトップページから毎日ルーレットを開く",
+      "「まわす」を押す。1日1人1回、商品注文は不要",
+      "ポイント当選分と購入時に使う割引クーポンを区別する",
+      "PayPayポイント当選分を使う場合はYahoo! JAPAN IDとPayPayアカウントを連携する。銀行口座登録・入金・決済は応募条件にない"
+    ],
+    "checkedAt": "2026-11-04T15:12:57.159477+00:00",
+    "evidenceExcerpt": "公式の参加方法はアプリのトップページとYahoo! JAPAN ID、1日1回の操作を列挙。その他注意事項にも応募の購入条件なし。元URLは現公式ルーレット案内へ通常リダイレクトする。終了日の指定なし。",
+    "entryUrl": "https://shopping.yahoo.co.jp/promotion/event/app_lottery"
+  },
+  {
+    "sourceKey": "yahoo:https://stamp.yahoo.co.jp/stamp/zloginstamp",
+    "officialUrl": "https://stamp.yahoo.co.jp/stamp/zloginstamp",
+    "sourceUrl": "https://toku.yahoo.co.jp/",
+    "title": "最大10万円相当のPayPayポイントが当たる! Yahoo!ズバトクログインスタンプ",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "無料のYahoo! JAPAN IDでログインする",
+      "Yahoo!ズバトクトップまたはキャンペーン一覧を訪問し、1日1個スタンプを獲得",
+      "3個たまったら「くじを引く」を押す。11月30日まで、月替わりでリセット",
+      "PayPayポイント当選分を使う場合はYahoo! JAPAN IDとPayPayアカウントを連携する。銀行口座登録・入金・決済は応募条件にない"
+    ],
+    "checkedAt": "2026-11-04T15:12:56.911379+00:00",
+    "evidenceExcerpt": "スタンプの獲得と応募について・ポイント賞について・ご注意を確認。ログイン訪問3日分ごとの抽選で購入条件なし。11月のスタンプ/応募期間内。",
+    "entryUrl": "https://stamp.yahoo.co.jp/stamp/zloginstamp"
+  },
+  {
+    "sourceKey": "yahoo:https://toku.yahoo.co.jp/everyday/lot",
+    "officialUrl": "https://toku.yahoo.co.jp/everyday/lot",
+    "sourceUrl": "https://toku.yahoo.co.jp/",
+    "title": "ズバトク毎日くじ",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "無料のYahoo! JAPAN IDでログインする",
+      "公式ページから毎日1回くじを引く",
+      "ポイント賞はその場で付与。購入が必要な割引クーポン等は別の選択的特典",
+      "PayPayポイント当選分を使う場合はYahoo! JAPAN IDとPayPayアカウントを連携する。銀行口座登録・入金・決済は応募条件にない"
+    ],
+    "checkedAt": "2026-11-04T15:12:57.026236+00:00",
+    "evidenceExcerpt": "ズバトク毎日くじについて・賞品付与方法・ご注意を確認。IDごと毎日1回の抽選で、ポイント賞の受取に購入条件なし。終了日指定のない継続企画。",
+    "entryUrl": "https://toku.yahoo.co.jp/everyday/lot"
+  },
+  {
+    "sourceKey": "yahoo:https://toku.yahoo.co.jp/everykuji/lot",
+    "officialUrl": "https://toku.yahoo.co.jp/everykuji/lot",
+    "sourceUrl": "https://toku.yahoo.co.jp/",
+    "title": "毎日ひける! PayPayポイントが当たるくじ",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "無料のYahoo! JAPAN IDでログインする",
+      "公式ページから毎日1回くじを引く",
+      "ポイント賞はその場で付与。割引クーポン使用時の購入条件と区別する",
+      "PayPayポイント当選分を使う場合はYahoo! JAPAN IDとPayPayアカウントを連携する。銀行口座登録・入金・決済は応募条件にない"
+    ],
+    "checkedAt": "2026-11-04T15:12:56.997633+00:00",
+    "evidenceExcerpt": "毎日ひけるくじについて・賞品進呈方法・ご注意を確認。IDごと毎日1回の抽選で購入条件なし。終了日指定のない継続企画。",
+    "entryUrl": "https://toku.yahoo.co.jp/everykuji/lot"
+  },
+  {
+    "sourceKey": "quo:https://www.sugi-net.jp/sugi-channel/4985",
+    "officialUrl": "https://www.sugi-net.jp/sugi-channel/4985",
+    "sourceUrl": "https://www.quocard.com/individual/campaign/",
+    "title": "スギ薬局アプリ｜簡単応募で当たるLINEお友だちキャンペーン！",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "スギ薬局の無料アプリ会員登録で会員番号を用意する。既存のポイントカードがなくても公式新規登録手順で登録可能",
+      "スギ薬局公式LINEを友だち追加し、キャンペーンページにアプリ会員番号を入力して11月30日までにエントリー",
+      "当選連絡までLINEをブロックしない",
+      "賞品はスギ薬局グループ専用QUOカードPay。一般のQUOカードPay加盟店で使える金券とは異なる"
+    ],
+    "checkedAt": "2026-11-04T15:12:57.783337+00:00",
+    "evidenceExcerpt": "公式SSRのarticleContentsに応募条件を全て確認。LINE友だち追加（既存も対象）とアプリ会員番号でのエントリーの2条件で、購入・来店・決済は条件にない。11月1日〜11月30日。",
+    "entryUrl": "https://liff.line.me/2000900561-rOYzl4Zn/01M4CYEQHM7HTJJ1YQS2G10FPZ/entry"
+  },
+  {
+    "sourceKey": "quo:https://service-info.edion.jp/sale/261023_linecp.html",
+    "officialUrl": "https://service-info.edion.jp/sale/261023_linecp.html",
+    "sourceUrl": "https://www.quocard.com/individual/campaign/",
+    "title": "エディオンアプリ｜最大50,000円分のエディオングループ専用QUOカードPayが当たる！",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "エディオンの無料アプリをインストールし無料会員登録する",
+      "エディオン公式LINEを友だち追加し、配信されたアンケートに回答して11月23日23:59までに提出",
+      "当選連絡までLINEをブロックしない。国内在住、未成年は保護者の規約同意",
+      "賞品はエディオン店舗専用QUOカードPay。通販や他の加盟店では使えず、期限は2027年5月末"
+    ],
+    "checkedAt": "2026-11-04T15:12:57.846134+00:00",
+    "evidenceExcerpt": "公式PDF規約4・5項の方法/資格全文を確認。アプリ無料登録・公式LINE友だち登録・アンケートのみで、購入・来店・有料会員の条件なし。10月23日10:00〜11月23日23:59。",
+    "entryUrl": "https://jp.maac.io/7pEbJ"
+  },
+  {
+    "sourceKey": "starbucks:holiday-bingo-2026",
+    "officialUrl": "https://www.starbucks.co.jp/rewards/bingo_party2026_guest/",
+    "sourceUrl": "https://stories.starbucks.co.jp/press/2026/pr-2026-1026-2/",
+    "title": "スタバのホリデーパーティーチケット 3,000円分が3,000名様に当たる",
+    "status": "conditional",
+    "requirements": [
+      "3ビンゴまたはフルビンゴ達成が抽選の条件",
+      "無料の初回1回だけで抽選権へ到達できることは確認できず、以降の挑戦権は対象商品の購入・対象決済で取得"
+    ],
+    "steps": [
+      "My Starbucks本会員登録とスターバックスカード登録またはデジタルカード発行でRewardsへ参加",
+      "12月25日までに初回無料ビンゴへ参加する",
+      "以降は公式に指定された商品・決済条件に従って購入しビンゴ挑戦権を獲得",
+      "3ビンゴ/フルビンゴ達成後、特典達成ステータスから12月27日までに抽選へ参加"
+    ],
+    "checkedAt": "2026-11-04T15:12:58.539380+00:00",
+    "evidenceExcerpt": "参加方法・キャンペーン要項全文を確認。初回は購入せず1回回せるが、以降の挑戦権は購入条件達成ごと。3000円チケットは3ビンゴ/フルビンゴ到達後の抽選であり、購入不要の単発応募とは確定できない。実施11月2日〜12月25日、抽選参加12月27日まで。",
+    "entryUrl": "https://www.starbucks.co.jp/rewards/bingo_party2026_guest/"
+  },
+  {
+    "sourceKey": "retail:https://x.com/tsuruhaofficial",
+    "officialUrl": "https://x.com/tsuruhaofficial",
+    "sourceUrl": "https://www.tsuruha.co.jp/campaign/",
+    "title": "第三弾【Xフォロー&リポストキャンペーン】Nintendo Switch 2が 抽選で合計1名様に当たる!",
+    "status": "unknown",
+    "requirements": [
+      "当該キャンペーンのX投稿・応募条件全文が未確認"
+    ],
+    "steps": [
+      "公式キャンペーン一覧から対象の第三弾Nintendo Switch 2企画を確認",
+      "当該公式X投稿の応募期間・フォロー/リポスト条件・当選連絡条件を確認してから参加する"
+    ],
+    "checkedAt": "2026-11-04T15:12:57.880566+00:00",
+    "evidenceExcerpt": "ツルハ公式一覧で11月1日〜11月15日とフォロー&リポストの概要は再確認したが、リンク先はXプロフィールで個別投稿や規約を取得できないためopenとは断定しない。"
+  },
+  {
+    "sourceKey": "retail:https://www.tsuruha.co.jp/campaign/x_20261101/",
+    "officialUrl": "https://www.tsuruha.co.jp/campaign/x_20261101/",
+    "sourceUrl": "https://www.tsuruha.co.jp/campaign/",
+    "title": "【X限定企画】 ラサーナ フォースタイル 3種セット プレゼントキャンペーン",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "公開設定の無料Xアカウントで@tsuruhaofficialをフォロー",
+      "11月30日までに対象のラサーナ企画ポストを通常リポストする。引用リポストは対象外",
+      "当選連絡までフォロー・リポストを維持し、Xチャットを受信できる設定にする",
+      "国内在住。通知後、指定期限内に発送先を登録する"
+    ],
+    "checkedAt": "2026-11-04T15:12:58.670143+00:00",
+    "evidenceExcerpt": "公式詳細の応募方法・応募条件・その他を全文確認。Xアカウント・公式フォロー・対象ポストの通常リポストの3条件で、購入・来店・作品投稿・レビュー条件なし。11月1日〜11月30日、20名。",
+    "entryUrl": "https://www.tsuruha.co.jp/campaign/x_20261101/"
+  },
+  {
+    "sourceKey": "retail:https://www.doramori.co.jp/cp-x-attack2026/",
+    "officialUrl": "https://www.doramori.co.jp/cp-x-attack2026/",
+    "sourceUrl": "https://www.doramori.co.jp/",
+    "title": "ドラモリ公式X アタックZERO パーフェクトスティック プレゼント",
+    "status": "unknown",
+    "requirements": [
+      "公式サイトが参照を求める個別X投稿の詳細・注意事項を確認できない"
+    ],
+    "steps": [
+      "公式サイトの案内は@doramori_kunフォローと11月30日23:59までの引用リポスト",
+      "個別X投稿で追加条件・注意事項を確認してから応募する"
+    ],
+    "checkedAt": "2026-11-04T15:12:58.855865+00:00",
+    "evidenceExcerpt": "公式サイトに11月2日9:00〜11月30日23:59、フォロー・引用リポスト・当選者DM、10名の概要あり。同ページの花王購入キャンペーンは別企画。ただし詳細はX投稿参照と明記され、その全文を確認できないためunknownに留める。"
+  },
+  {
+    "sourceKey": "jcom:https://c.myjcom.jp/user/present/present3493.html",
+    "officialUrl": "https://c.myjcom.jp/user/present/present3493.html",
+    "sourceUrl": "https://c.myjcom.jp/user/",
+    "title": "クイズに答えてQUOカードPayプレゼント<第1弾>",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "日本国内の住所・氏名・メールアドレス等を用意し、未成年者は保護者の同意を得る",
+      "公式ページのクイズとヒントを確認し、「通常応募」の入力画面を開く",
+      "クイズの解答とサービス認知の選択回答を入力して応募。1世帯につき当選1口",
+      "当選メールを受信できるようにする。QUOカードPayの利用にはスマートフォンが必要"
+    ],
+    "checkedAt": "2026-11-04T15:25:20.432109+00:00",
+    "evidenceExcerpt": "応募資格に「どなたでもご応募可」。公式に設けられた通常応募ルートはログイン不要で、契約番号の入力はない。クイズ解答と認知の選択回答が必須。加入者のみ登録電話番号を使用する注意書きで、加入を全員の条件にしていない。",
+    "evidenceSources": [
+      {
+        "url": "https://c.myjcom.jp/user/present/present3493.html"
+      },
+      {
+        "url": "https://c.myjcom.jp/user/present/input/present3493.html"
+      },
+      {
+        "url": "https://c.myjcom.jp/user/present/input/present3493.html?login=1"
+      }
+    ],
+    "reviewedPeriod": "応募締切2026年11月22日23:59。",
+    "entryUrl": "https://c.myjcom.jp/user/present/input/present3493.html?login=1"
+  },
+  {
+    "sourceKey": "tfm:https://www.tfm.co.jp/itsuka/",
+    "officialUrl": "https://www.tfm.co.jp/itsuka/",
+    "sourceUrl": "https://www.tfm.co.jp/present/",
+    "title": "全国のコジマで使える「コジマ商品券 1万円分」をプレゼント!|奈緒のいつかほんとになるはなし supported by コジマ",
+    "status": "conditional",
+    "requirements": [
+      "番組向けのエピソード・相談等を投稿し、メッセージが採用される必要がある"
+    ],
+    "steps": [
+      "番組フォームでコーナーを選び、奈緒に聞いてほしい話や相談を記入",
+      "プレゼント応募を「はい」にして受取先・連絡先を入力",
+      "採用された場合にコジマ商品券1万円分の対象になる"
+    ],
+    "checkedAt": "2026-11-04T15:25:20.432109+00:00",
+    "evidenceExcerpt": "番組本文と応募フォームの両方で、商品券はメッセージが採用されたリスナーへ贈ると明記。単なる送信者全員を対象とした抽選ではない。",
+    "evidenceSources": [
+      {
+        "url": "https://www.tfm.co.jp/itsuka/"
+      },
+      {
+        "url": "https://www.tfm.co.jp/f/itsuka/message"
+      }
+    ],
+    "reviewedPeriod": "2026-11-05JST時点で公式の現行一覧と公開応募フォームに掲載。固定締切は記載なし。",
+    "entryUrl": "https://www.tfm.co.jp/f/itsuka/message"
+  },
+  {
+    "sourceKey": "tfm:https://www.tfm.co.jp/brand_new_link/",
+    "officialUrl": "https://www.tfm.co.jp/brand_new_link/",
+    "sourceUrl": "https://www.tfm.co.jp/present/",
+    "title": "毎月3名様にAmazonギフトカード5,000円分をプレゼント!|ALFALINK presents BRAND NEW LINK",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "希望するゲストやかけてほしい曲など、短いリクエストを記入",
+      "公開フォームでプレゼント応募を「はい」にし、本人の氏名・住所・メールアドレス等を入力",
+      "日本国内在住者が対象で、賞品の送り先は当選本人の住所にする"
+    ],
+    "checkedAt": "2026-11-04T15:25:20.432109+00:00",
+    "evidenceExcerpt": "番組は今後呼んでほしいゲスト・曲のリクエストも受け付け、メッセージを送った人から毎月3名にAmazonギフトカードを贈ると案内。公開フォームに会員認証・購入・番組キーワードはなく、国内在住・本人住所への発送のみ明記。",
+    "evidenceSources": [
+      {
+        "url": "https://www.tfm.co.jp/brand_new_link/"
+      },
+      {
+        "url": "https://www.tfm.co.jp/f/brand_new_link/message"
+      }
+    ],
+    "reviewedPeriod": "2026-11-05JST時点で公式の現行一覧と公開応募フォームに掲載。固定締切は記載なし。",
+    "entryUrl": "https://www.tfm.co.jp/f/brand_new_link/message"
+  },
+  {
+    "sourceKey": "tfm:https://www.tfm.co.jp/lock/blueprint/",
+    "officialUrl": "https://www.tfm.co.jp/lock/blueprint/",
+    "sourceUrl": "https://www.tfm.co.jp/present/",
+    "title": "オリジナルQUOカードPay 3,000円分をプレゼント!|SCHOOL OF LOCK! 描け!未来の青写真 Blue Print supported by MIZUHO",
+    "status": "conditional",
+    "requirements": [
+      "自分の夢についてのメッセージを投稿し、番組で紹介される必要がある"
+    ],
+    "steps": [
+      "公式フォームに自分が描いている夢を記入",
+      "プレゼント応募を「はい」にして連絡先・受取情報を入力",
+      "番組で紹介された場合にQUOカードPay3,000円分が贈られる"
+    ],
+    "checkedAt": "2026-11-04T15:25:20.432109+00:00",
+    "evidenceExcerpt": "公式案内と入力フォームは、番組でメッセージを紹介された生徒へのプレゼントと説明。夢に関する投稿と放送での採用が必要で、全応募者からの無条件抽選ではない。",
+    "evidenceSources": [
+      {
+        "url": "https://www.tfm.co.jp/lock/blueprint/"
+      },
+      {
+        "url": "https://www.tfm.co.jp/f/lock/blueprint"
+      }
+    ],
+    "reviewedPeriod": "2026-11-05JST時点で公式の現行一覧と公開応募フォームに掲載。固定締切は記載なし。",
+    "entryUrl": "https://www.tfm.co.jp/f/lock/blueprint"
+  },
+  {
+    "sourceKey": "tfm:https://www.tfm.co.jp/f/om/solution",
+    "officialUrl": "https://www.tfm.co.jp/f/om/solution",
+    "sourceUrl": "https://www.tfm.co.jp/present/",
+    "title": "QUOカード3,000円分をプレゼント!",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "番組へのメッセージまたはリクエストを短く記入",
+      "年齢・職業・メールアドレスなど公開フォームの必須項目を入力",
+      "プレゼント応募を「はい」にし、氏名・郵便番号・受取住所・電話番号を入力して応募"
+    ],
+    "checkedAt": "2026-11-04T15:25:20.432109+00:00",
+    "evidenceExcerpt": "公開応募フォームは、メッセージを送った人から毎月5名にQUOカード3,000円と案内。職業は学生・主婦主夫・その他等を選べ、ログイン・商品購入・視聴コード・番組採用は応募要件にない。",
+    "evidenceSources": [
+      {
+        "url": "https://www.tfm.co.jp/f/om/solution"
+      }
+    ],
+    "reviewedPeriod": "2026-11-05JST時点で公式の現行一覧と公開応募フォームに掲載。固定締切は記載なし。",
+    "entryUrl": "https://www.tfm.co.jp/f/om/solution"
+  },
+  {
+    "sourceKey": "tfm:https://www.tfm.co.jp/agripower/",
+    "officialUrl": "https://www.tfm.co.jp/agripower/",
+    "sourceUrl": "https://www.tfm.co.jp/present/",
+    "title": "「あぐりずむ未来へつなぐあぐりパワー」JAタウンギフトカード5,000円分を毎月5名様にプレゼント!",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "農業への応援や番組へのメッセージ・リクエストを記入",
+      "公開フォームのプレゼント応募を「はい」にする",
+      "氏名・受取住所・連絡先など必須情報を入力して応募"
+    ],
+    "checkedAt": "2026-11-04T15:25:20.432109+00:00",
+    "evidenceExcerpt": "公式はJAタウンギフトカード5,000円分を毎月5名に案内し、番組フォームでメッセージやリクエストを募集。フォームは多様な職業の応募を受け付け、農家・JA加入・商品購入・番組コードを必須にしていない。",
+    "evidenceSources": [
+      {
+        "url": "https://www.tfm.co.jp/agripower/"
+      },
+      {
+        "url": "https://www.tfm.co.jp/f/agripower/form"
+      }
+    ],
+    "reviewedPeriod": "2026-11-05JST時点で公式の現行一覧と公開応募フォームに掲載。固定締切は記載なし。",
+    "entryUrl": "https://www.tfm.co.jp/f/agripower/form"
+  },
+  {
+    "sourceKey": "tfm:https://www.tfm.co.jp/f/nakauesauna/message",
+    "officialUrl": "https://www.tfm.co.jp/f/nakauesauna/message",
+    "sourceUrl": "https://www.tfm.co.jp/present/",
+    "title": "メッセージを送ってくださった方の中から毎月抽選で10名様にQUOカード1,000円分をプレゼント!",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "サウナや番組へのメッセージ・リクエストを記入",
+      "プレゼント応募を「はい」にし、氏名・受取住所・連絡先等を入力して応募"
+    ],
+    "checkedAt": "2026-11-04T15:25:20.432109+00:00",
+    "evidenceExcerpt": "公開フォームは番組へメッセージを送った人から毎月10名にQUOカード1,000円と説明。サウナ施設への来場、利用料金、会員登録、視聴キーワードの欄や応募条件はない。",
+    "evidenceSources": [
+      {
+        "url": "https://www.tfm.co.jp/f/nakauesauna/message"
+      }
+    ],
+    "reviewedPeriod": "2026-11-05JST時点で公式の現行一覧と公開応募フォームに掲載。固定締切は記載なし。",
+    "entryUrl": "https://www.tfm.co.jp/f/nakauesauna/message"
+  },
+  {
+    "sourceKey": "tfm:https://www.tfm.co.jp/present/truck/",
+    "officialUrl": "https://www.tfm.co.jp/present/truck/",
+    "sourceUrl": "https://www.tfm.co.jp/present/",
+    "title": "東京都トラック協会から 毎月10名様にQUOカード3000円分をプレゼント!",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "公開応募フォームへ氏名・年齢・職業・郵便番号・受取住所・メールアドレス等を入力",
+      "トラック運送への応援メッセージを添える場合は記入し、注意事項を確認して応募",
+      "月末締切までに応募する。QUOカードは当選時に発送される"
+    ],
+    "checkedAt": "2026-11-04T15:25:20.432109+00:00",
+    "evidenceExcerpt": "毎月月末締切・10名のプレゼントで、応募フォームは全47都道府県と学生・主婦主夫などを選択可能。東京都在住・トラック運送業従事・購入等の限定資格はなく、メッセージ欄も必須表示ではない。",
+    "evidenceSources": [
+      {
+        "url": "https://www.tfm.co.jp/present/truck/"
+      }
+    ],
+    "reviewedPeriod": "毎月月末締切。2026年11月5日現在の公式フォームを確認。",
+    "entryUrl": "https://www.tfm.co.jp/present/truck/"
+  },
+  {
+    "sourceKey": "mynavi:https://news.mynavi.jp/article/20261023-present01/",
+    "officialUrl": "https://news.mynavi.jp/article/20261023-present01/",
+    "sourceUrl": "https://news.mynavi.jp/top/present/present/",
+    "title": "10月第2弾|【3名様】おでんをさらにおいしく!紀文「おでんには魚河岸あげ®」オリジナルQUOカードをプレゼント",
+    "status": "conditional",
+    "requirements": [
+      "マイナビニュース・ウーマン無料会員への登録が必要",
+      "提携アンケート参加に同意し、応募フォーム以外の対象アンケートを期間中に1件以上回答する必要がある"
+    ],
+    "steps": [
+      "会員登録後、マイページの提携アンケート参加に同意する",
+      "自分が回答対象となる別アンケートを1件以上回答する",
+      "読者プレゼントの希望賞品を1つ選び、11月6日23:59までに応募する"
+    ],
+    "checkedAt": "2026-11-04T15:25:20.432109+00:00",
+    "evidenceExcerpt": "公式応募資格・抽選対象欄を確認。会員登録とプレゼント応募だけでは抽選対象外。別アンケート1件と提携アンケート同意が必須で、回答対象条件はログイン後の各アンケートによるため、誰でも即応募できるとまでは確認できない。",
+    "evidenceSources": [
+      {
+        "url": "https://news.mynavi.jp/article/20261023-present01/"
+      }
+    ],
+    "reviewedPeriod": "2026年11月6日23:59締切。",
+    "entryUrl": "https://news.mynavi.jp/article/20261023-present01/"
+  },
+  {
+    "sourceKey": "asahirelife:https://www.asahi.com/relife/article/16984420",
+    "officialUrl": "https://www.asahi.com/relife/article/16984420",
+    "sourceUrl": "https://www.asahi.com/relife/article/16984420",
+    "title": "旅行券・おせち・図書カードなど122名様に|秋のプレゼント",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "朝日IDを無料取得し、Reライフ読者会議の無料メンバーに登録する",
+      "応募ページで必要事項に回答し、図書カードネットギフト等の通常抽選の希望賞品を選ぶ",
+      "Reライフメールの配信・当選連絡先の登録内容を確認し、1人1回応募する"
+    ],
+    "checkedAt": "2026-11-04T15:25:20.432109+00:00",
+    "evidenceExcerpt": "公式記事は無料で応募でき、新規メンバーも応募ページの回答で読者会議に登録されると説明。公開要項は無料の朝日ID会員で参加できると明記し、新聞の有料購読を必須にしていない。来場登録が必要なのは別のWチャンス賞。",
+    "evidenceSources": [
+      {
+        "url": "https://www.asahi.com/relife/article/16984420"
+      },
+      {
+        "url": "https://que.digital.asahi.com/question/11020130"
+      },
+      {
+        "url": "https://www.asahi.com/relife/dokusha/"
+      },
+      {
+        "url": "https://que.digital.asahi.com/question/11011539"
+      }
+    ],
+    "reviewedPeriod": "2026年11月30日締切。",
+    "entryUrl": "https://que.digital.asahi.com/question/11020130",
+    "reviewScope": "図書カードネットギフト等、通常抽選の応募ルート。別Wチャンスの来場登録は対象外。"
+  },
+  {
+    "sourceKey": "9cd815e598ccd4ed83443bce",
+    "officialUrl": "https://www.asahi.co.jp/news-okaeri/okaten_quiz/",
+    "sourceUrl": "https://www.asahi.co.jp/news-okaeri/okaten_quiz/",
+    "title": "11月おか天クイズ：Amazonギフトカード1万円・加湿器等",
+    "status": "conditional",
+    "requirements": [
+      "ABCテレビのデータ放送クイズで規定ポイントを貯め、画面に表示される応募キーワードを取得する必要がある"
+    ],
+    "steps": [
+      "newsおかえりのデータ放送クイズに参加してポイントを貯める",
+      "希望賞品に必要なポイントと応募キーワードを確認する",
+      "ABC ID・ABCテレビファンの無料登録を行い、キーワードと必要事項で応募する"
+    ],
+    "checkedAt": "2026-11-04T15:25:20.432109+00:00",
+    "evidenceExcerpt": "公式の遊び方・応募規定はテレビのデータ放送でポイント獲得後に応募する仕組み。月末23:59締切で翌月リセット。Webの簡単回答だけではキーワードを取得できない。",
+    "evidenceSources": [
+      {
+        "url": "https://www.asahi.co.jp/news-okaeri/okaten_quiz/"
+      }
+    ],
+    "reviewedPeriod": "11月賞品を掲載、2026年11月30日23:59締切。",
+    "entryUrl": "https://cypher.asahi.co.jp/tv_newsokaeri_dcp2509_f?utm_source=abc_okaten&utm_medium=referral&utm_campaign=okatenquiz"
+  },
+  {
+    "sourceKey": "54a6a664f5f6514b06985cfd",
+    "officialUrl": "https://syuppan.f-form.com/wendyh",
+    "sourceUrl": "https://syuppan.f-form.com/wendyh",
+    "title": "Wendy広島300号記念：金券・家電・宿泊券等読者プレゼント",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "無料公開されているWendy広島300号の誌面を読み、良かった記事または広告を選ぶ",
+      "読者プレゼント欄で160番「ガソリンのギフト券」を選ぶ（1,000円券2枚、3名）",
+      "氏名・国内の受取住所・連絡先・記事や広告への簡単な感想を入力し、1世帯1通まで応募する"
+    ],
+    "checkedAt": "2026-11-04T15:25:20.432109+00:00",
+    "evidenceExcerpt": "公式300号の応募要項と160番を画像確認。商品を1つ選び記事等を回答する方法で、購入・広島県在住・事前来場は要件にない。160番は全国約8,000店で使える2,000円分のガソリンギフト券。他の地域施設賞品まで一律に確認した判定ではない。",
+    "evidenceSources": [
+      {
+        "url": "https://syuppan.f-form.com/wendyh"
+      },
+      {
+        "url": "https://wendy-net.com/wendy/hiroshima/"
+      },
+      {
+        "url": "https://wendy-net.com/pdf/hiroshima/wh300-202611.pdf",
+        "visuallyReviewedPages": [
+          15,
+          21,
+          22,
+          23
+        ]
+      }
+    ],
+    "reviewedPeriod": "2026年11月14日消印有効。公式Webフォームも11月14日締切と表示。",
+    "entryUrl": "https://syuppan.f-form.com/wendyh",
+    "reviewScope": "全国利用できる160番ガソリンのギフト券を選ぶルート。現地施設賞品等は別条件。"
+  },
+  {
+    "sourceKey": "ada618b2d972aaa6919555d8",
+    "officialUrl": "https://www.myufm.jp/present/%e3%80%90%e3%83%95%e3%82%a1%e3%83%9f%e3%83%aa%e3%83%bc%e3%83%9e%e3%83%bc%e3%83%88presents%e6%95%99%e3%81%88%e3%81%a6%ef%bc%81%e3%83%95%e3%82%a1%e3%83%9f%e3%83%9a%e3%82%a4%e5%85%88%e7%94%9f%e3%80%91/",
+    "sourceUrl": "https://www.myufm.jp/present/",
+    "title": "ファミペイ ギフトコード1,000円分",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "番組の感想またはファミリーマートに関するメッセージを記入",
+      "専用の無料公開フォームに氏名・国内受取先・連絡先等を入力し、プレゼントを希望して応募",
+      "当選したギフトコードを使うにはファミペイアプリに取り込む"
+    ],
+    "checkedAt": "2026-11-04T15:25:20.432109+00:00",
+    "evidenceExcerpt": "公式の現行一覧・個別案内・専用フォームを確認。メッセージから毎月10名にファミペイ1,000円分で、購入レシート、決済実績、視聴コード、地域在住条件は記載されていない。アプリは当選コードの利用に必要。",
+    "evidenceSources": [
+      {
+        "url": "https://www.myufm.jp/present/%e3%80%90%e3%83%95%e3%82%a1%e3%83%9f%e3%83%aa%e3%83%bc%e3%83%9e%e3%83%bc%e3%83%88presents%e6%95%99%e3%81%88%e3%81%a6%ef%bc%81%e3%83%95%e3%82%a1%e3%83%9f%e3%83%9a%e3%82%a4%e5%85%88%e7%94%9f%e3%80%91/"
+      },
+      {
+        "url": "https://www.myufm.jp/message/?present_id=432810&program_id=429621"
+      },
+      {
+        "url": "https://www.myufm.jp/present/"
+      }
+    ],
+    "reviewedPeriod": "毎月末日締切。2026年11月5日の公式現行一覧にも掲載。",
+    "entryUrl": "https://www.myufm.jp/message/?present_id=432810&program_id=429621"
+  },
+  {
+    "sourceKey": "e322c7abe0203312dad552ff",
+    "officialUrl": "https://www.myufm.jp/present/taiyo/",
+    "sourceUrl": "https://www.myufm.jp/present/",
+    "title": "タイヨー 商品券1,000円分",
+    "status": "conditional",
+    "requirements": [
+      "賞品はタイヨーの店舗で利用する商品券。利用できる店舗・地域を確認して選ぶ必要がある"
+    ],
+    "steps": [
+      "番組の感想等を添え、公開応募フォームに必要事項を入力",
+      "毎月末までに応募し、当選後にタイヨー商品券の対象店舗で利用する"
+    ],
+    "checkedAt": "2026-11-04T15:25:20.432109+00:00",
+    "evidenceExcerpt": "番組公式の応募方法は毎月3名にタイヨー商品券1,000円分を抽選で贈る内容。購入・来場・鹿児島在住を応募資格にしてはいないが、全国共通の金券ではなく店舗利用賞品のため実用条件を付けている。",
+    "evidenceSources": [
+      {
+        "url": "https://www.myufm.jp/present/taiyo/"
+      },
+      {
+        "url": "https://www.myufm.jp/message/?present_id=437145&program_id=408010"
+      },
+      {
+        "url": "https://www.myufm.jp/present/"
+      }
+    ],
+    "reviewedPeriod": "毎月末日締切。2026年11月5日の公式現行一覧にも掲載。",
+    "entryUrl": "https://www.myufm.jp/message/?present_id=437145&program_id=408010",
+    "reviewScope": "応募時の地域制限があるという判定ではない。賞品の利用店舗を要確認。"
+  },
+  {
+    "sourceKey": "e46141a95f6e98d4bd54bef3",
+    "officialUrl": "https://www.lmaga.jp/present/1096228/",
+    "sourceUrl": "https://www.lmaga.jp/present/",
+    "title": "「おでんには魚河岸あげ」オリジナルQUOカード（1,000円分）",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "公式の公開応募フォームで氏名・メールアドレス・生年月日・国内受取住所・電話番号等を入力",
+      "賞品発送は日本国内限定。11月30日23:59までに応募する",
+      "同じ月の他の懸賞との重複当選制限がある場合は公式の注意事項に従う"
+    ],
+    "checkedAt": "2026-11-04T15:25:20.432109+00:00",
+    "evidenceExcerpt": "応募フォームと末尾の注意事項を確認。商品購入、会員登録、SNS投稿、番組コード、事前来場の条件はない。日本国内への発送限定、同月の他懸賞に入選できない場合がある旨を明記。ご要望・感想欄は必須ではない。",
+    "evidenceSources": [
+      {
+        "url": "https://www.lmaga.jp/present/1096228/"
+      }
+    ],
+    "reviewedPeriod": "2026年11月30日23:59締切。",
+    "entryUrl": "https://www.lmaga.jp/present/1096228/",
+    "reviewScope": "QUOカード1,000円分の個別応募フォーム。"
+  },
+  {
+    "sourceKey": "66e69a8b823a15962ad78c5a",
+    "officialUrl": "https://yomipo.yomiuri.co.jp/present/detail/11174",
+    "sourceUrl": "https://yomipo.yomiuri.co.jp/present/detail/11174",
+    "title": "よみぽ秋のプレゼント｜全国百貨店共通商品券1万円分",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "無料の読売IDを取得し、氏名・国内住所・電話番号を登録する",
+      "全国百貨店共通商品券1万円分の応募ページでログインする",
+      "登録住所を確認し、11月29日23:59までに1回応募する"
+    ],
+    "checkedAt": "2026-11-04T15:25:20.432109+00:00",
+    "evidenceExcerpt": "個別要項は読売IDを持つ人なら誰でも応募でき、住所・氏名・電話番号の登録が必要と明記。購読者限定の指定はない。読売グループ公式の共通ID説明でも無料登録を確認。全国百貨店共通商品券の応募ルートを対象に判定。",
+    "evidenceSources": [
+      {
+        "url": "https://yomipo.yomiuri.co.jp/present/detail/11174"
+      },
+      {
+        "url": "https://my.ytv.co.jp/faq.html"
+      }
+    ],
+    "reviewedPeriod": "2026年11月29日23:59締切。",
+    "entryUrl": "https://yomipo.yomiuri.co.jp/present/detail/11174",
+    "reviewScope": "全国百貨店共通商品券1万円分・10名の応募ルート。"
+  },
+  {
+    "sourceKey": "prtimes-broad:3670:5196",
+    "officialUrl": "https://www.creativevillage.ne.jp/category/news/notices/180169/",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000005196.000003670.html",
+    "title": "CREATIVE VILLAGE 秋のプレゼント2026",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "公開アンケートに氏名・個人のメールアドレス・都道府県等を入力する",
+      "転職意向や関心のある職種など7問に回答する。「転職予定はない」「希望職種なし」等も選べる",
+      "個人情報の取扱いに同意し、1人1回応募する。グループ用メールアドレスは使用できない"
+    ],
+    "checkedAt": "2026-11-04T15:25:20.432109+00:00",
+    "evidenceExcerpt": "応募規定と公開フォームを確認。転職活動・クリエイターの有料登録や就業実績を参加条件にしておらず、転職予定なし・希望職種なしの選択肢もある。受付終了の文は共通テンプレートで、JSは11月20日23:59以前にフォームを表示し終了文を非表示にする。",
+    "evidenceSources": [
+      {
+        "url": "https://www.creativevillage.ne.jp/category/news/notices/180169/"
+      },
+      {
+        "url": "https://go.creativevillage.ne.jp/l/924692/2026-10-14/2q41mw"
+      }
+    ],
+    "reviewedPeriod": "2026年10月30日～11月20日23:59。",
+    "entryUrl": "https://go.creativevillage.ne.jp/l/924692/2026-10-14/2q41mw"
+  },
+  {
+    "sourceKey": "prtimes-broad:155351:15",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000015.000155351.html",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000015.000155351.html",
+    "title": "防災me アップデート記念そなえルーレット",
+    "status": "unknown",
+    "requirements": [
+      "アプリへのログインと広告視聴は必要",
+      "応募資格・年齢・居住地等の詳細規約がアプリ内限定で、公開一次資料では全文確認できない"
+    ],
+    "steps": [
+      "防災meのアプリ内にあるキャンペーン応募規約を確認する",
+      "対象者であることを確認後、ログインしてホームまたはポイントタブの入口を開く",
+      "短い広告を視聴してルーレットに参加。通常1日1回、当日のクイズ全問正解で追加1回"
+    ],
+    "checkedAt": "2026-11-04T15:25:20.432109+00:00",
+    "evidenceExcerpt": "主催者の公式リリースは11月2日10:00～9日23:59、無料、ログイン・広告視聴と明記。一方で詳細はアプリ内の応募規約と案内しているため、公開ページの購入不要だけを根拠にopenとは判定しない。",
+    "evidenceSources": [
+      {
+        "url": "https://prtimes.jp/main/html/rd/p/000000015.000155351.html"
+      }
+    ],
+    "reviewedPeriod": "2026年11月2日10:00～11月9日23:59。",
+    "entryUrl": "https://onelink.to/4r9fqb"
+  },
+  {
+    "sourceKey": "prtimes-broad:2198:710",
+    "officialUrl": "https://mitsui-shopping-park.com/lalaport/special/blackfriday_2026_11/",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000710.000002198.html",
+    "title": "ららぽーと BLACK FRIDAY Xプレゼント",
+    "status": "unknown",
+    "requirements": [
+      "対象キャンペーン投稿・応募規約の全文を確認できていない"
+    ],
+    "steps": [
+      "ららぽーと公式Xの対象キャンペーン投稿を開き、応募規約を確認する",
+      "対象者であれば@lalafanlalaportをフォローし対象投稿を通常リポストする"
+    ],
+    "checkedAt": "2026-11-04T15:25:20.432109+00:00",
+    "evidenceExcerpt": "主催者の公式リリースでSNS企画の期間は11月4日～29日、参加方法はフォローとリポストと確認。購入抽選会とは別項目。ただし公開LPは規約全文や個別投稿URLを提示せず公式プロフィールにリンクしており、適格条件を確定できないためunknown。",
+    "evidenceSources": [
+      {
+        "url": "https://mitsui-shopping-park.com/lalaport/special/blackfriday_2026_11/"
+      },
+      {
+        "url": "https://prtimes.jp/main/html/rd/p/000000710.000002198.html"
+      }
+    ],
+    "reviewedPeriod": "SNS企画は2026年11月4日～29日。買物セールや来店抽選会の日程とは別。",
+    "entryUrl": "https://x.com/lalafanlalaport"
+  },
+  {
+    "sourceKey": "e4fc2588b3b94d7bc4e887ff",
+    "officialUrl": "https://www.lmaga.jp/present/1112646/",
+    "sourceUrl": "https://www.lmaga.jp/present/",
+    "title": "映画『すべて真夜中の恋人たち』オリジナルトートバック",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "公式の公開応募フォームで氏名・メールアドレス・生年月日・国内受取住所・電話番号等を入力",
+      "賞品発送は日本国内限定。11月23日23:59までに応募する",
+      "同じ月の他の懸賞との重複当選制限がある場合は公式の注意事項に従う"
+    ],
+    "checkedAt": "2026-11-04T15:25:20.432109+00:00",
+    "evidenceExcerpt": "応募フォームと末尾の注意事項を確認。商品購入、会員登録、SNS投稿、番組コード、事前来場の条件はない。日本国内への発送限定、同月の他懸賞に入選できない場合がある旨を明記。ご要望・感想欄は必須ではない。",
+    "evidenceSources": [
+      {
+        "url": "https://www.lmaga.jp/present/1112646/"
+      }
+    ],
+    "reviewedPeriod": "2026年11月23日23:59締切。",
+    "entryUrl": "https://www.lmaga.jp/present/1112646/",
+    "reviewScope": "オリジナルトートバッグの個別応募フォーム。"
+  },
+  {
+    "sourceKey": "d3823dcbc56ae473e1342b94",
+    "officialUrl": "https://www.lmaga.jp/present/1112633/",
+    "sourceUrl": "https://www.lmaga.jp/present/",
+    "title": "映画『男ともだち』劇中イラストオリジナル缶ミラー",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "公式の公開応募フォームで氏名・メールアドレス・生年月日・国内受取住所・電話番号等を入力",
+      "賞品発送は日本国内限定。11月15日23:59までに応募する",
+      "同じ月の他の懸賞との重複当選制限がある場合は公式の注意事項に従う"
+    ],
+    "checkedAt": "2026-11-04T15:25:20.432109+00:00",
+    "evidenceExcerpt": "応募フォームと末尾の注意事項を確認。商品購入、会員登録、SNS投稿、番組コード、事前来場の条件はない。日本国内への発送限定、同月の他懸賞に入選できない場合がある旨を明記。ご要望・感想欄は必須ではない。",
+    "evidenceSources": [
+      {
+        "url": "https://www.lmaga.jp/present/1112633/"
+      }
+    ],
+    "reviewedPeriod": "2026年11月15日23:59締切。",
+    "entryUrl": "https://www.lmaga.jp/present/1112633/",
+    "reviewScope": "缶ミラーの個別応募フォーム。"
+  },
+  {
+    "sourceKey": "53dd8f6abde3e60073d04adb",
+    "officialUrl": "https://www.lmaga.jp/present/1112643/",
+    "sourceUrl": "https://www.lmaga.jp/present/",
+    "title": "映画『クリスマス・キャロル／３人のゴーストたち』くだらん！スクルージの懐中時計",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "公式の公開応募フォームで氏名・メールアドレス・生年月日・国内受取住所・電話番号等を入力",
+      "賞品発送は日本国内限定。11月16日23:59までに応募する",
+      "同じ月の他の懸賞との重複当選制限がある場合は公式の注意事項に従う"
+    ],
+    "checkedAt": "2026-11-04T15:25:20.432109+00:00",
+    "evidenceExcerpt": "応募フォームと末尾の注意事項を確認。商品購入、会員登録、SNS投稿、番組コード、事前来場の条件はない。日本国内への発送限定、同月の他懸賞に入選できない場合がある旨を明記。ご要望・感想欄は必須ではない。",
+    "evidenceSources": [
+      {
+        "url": "https://www.lmaga.jp/present/1112643/"
+      }
+    ],
+    "reviewedPeriod": "2026年11月16日23:59締切。",
+    "entryUrl": "https://www.lmaga.jp/present/1112643/",
+    "reviewScope": "懐中時計の個別応募フォーム。"
+  },
+  {
+    "sourceKey": "01be414a5afa0cf8252a1201",
+    "officialUrl": "https://www.lmaga.jp/present/1090183/",
+    "sourceUrl": "https://www.lmaga.jp/present/",
+    "title": "『中島みゆき 劇場版「夜会」セレクション』ムビチケカード",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "公式の公開応募フォームで氏名・メールアドレス・生年月日・国内受取住所・電話番号等を入力",
+      "賞品発送は日本国内限定。11月30日23:59までに応募する",
+      "同じ月の他の懸賞との重複当選制限がある場合は公式の注意事項に従う"
+    ],
+    "checkedAt": "2026-11-04T15:25:20.432109+00:00",
+    "evidenceExcerpt": "応募フォームと末尾の注意事項を確認。商品購入、会員登録、SNS投稿、番組コード、事前来場の条件はない。日本国内への発送限定、同月の他懸賞に入選できない場合がある旨を明記。ご要望・感想欄は必須ではない。",
+    "evidenceSources": [
+      {
+        "url": "https://www.lmaga.jp/present/1090183/"
+      }
+    ],
+    "reviewedPeriod": "2026年11月30日23:59締切。",
+    "entryUrl": "https://www.lmaga.jp/present/1090183/",
+    "reviewScope": "ムビチケカードの個別応募フォーム。"
+  },
+  {
+    "sourceKey": "426a13a32b3be4a89dfde313",
+    "officialUrl": "https://www.bs11.jp/present/jbc-261103.php",
+    "sourceUrl": "https://www.bs11.jp/present/",
+    "title": "JBC2026 オリジナルキャップ、JBC2026 オリジナルエコバッグ",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "公式の公開フォームで氏名・年齢・職業・国内受取住所・メールアドレス等を入力",
+      "希望するキャップまたはエコバッグを選び、番組への意見・感想を400字以内で記入",
+      "個人情報保護方針に同意し、1人1回応募する"
+    ],
+    "checkedAt": "2026-11-04T15:25:20.432109+00:00",
+    "evidenceExcerpt": "現行公式一覧の応募期間と個別フォームを確認。必須はプロフィール・住所・連絡先・番組への感想で、学生や無職等も選べる。視聴キーワード、データ放送ポイント、有料契約、購入、事前来場の条件はない。",
+    "evidenceSources": [
+      {
+        "url": "https://www.bs11.jp/present/jbc-261103.php"
+      },
+      {
+        "url": "https://www.bs11.jp/present/"
+      }
+    ],
+    "reviewedPeriod": "2026年11月3日～10日。",
+    "entryUrl": "https://www.bs11.jp/present/jbc-261103.php"
+  },
+  {
+    "sourceKey": "97463e73215994e9f7912cf6",
+    "officialUrl": "https://www.bs11.jp/present/showtime-261030.php",
+    "sourceUrl": "https://www.bs11.jp/present/",
+    "title": "中江有里・著『ホンの贈りもの』（立東舎）",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "公式の公開フォームで氏名・年齢・職業・国内受取住所・メールアドレス等を入力",
+      "番組への意見・感想を400字以内で記入",
+      "個人情報保護方針に同意し、1人1回応募する"
+    ],
+    "checkedAt": "2026-11-04T15:25:20.432109+00:00",
+    "evidenceExcerpt": "現行公式一覧の応募期間と個別フォームを確認。必須はプロフィール・住所・連絡先・番組への感想で、学生や無職等も選べる。視聴キーワード、データ放送ポイント、有料契約、購入、事前来場の条件はない。",
+    "evidenceSources": [
+      {
+        "url": "https://www.bs11.jp/present/showtime-261030.php"
+      },
+      {
+        "url": "https://www.bs11.jp/present/"
+      }
+    ],
+    "reviewedPeriod": "2026年10月30日～11月30日。",
+    "entryUrl": "https://www.bs11.jp/present/showtime-261030.php"
+  },
+  {
+    "sourceKey": "prtimes-gifts:157135:208",
+    "officialUrl": "https://lets-boatrace.jp/entertainment/cm/cp/2026episode/",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000208.000157135.html",
+    "title": "BOATRACE 2026年CM第11話 公開記念キャンペーン",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "無料の LINE アカウントでボートレース公式 @841wlnbb を友だち追加する（公式 LP の友だち追加リンクを確認）。",
+      "トーク画面メニューの「キャンペーンに応募する」を 11月8日18時 JST までにタップする。LINE コースは Amazon ギフトカード2万円分25名。",
+      "国内で受け取り可能な方。1人1アカウント。抽選終了まで友だち解除・ブロックをせず、当選時の LINE 連絡を受け取る。"
+    ],
+    "checkedAt": "2026-11-04T15:22:20.080662+00:00",
+    "evidenceExcerpt": "公式第11話規約の LINE 応募条件と3段階の手順を確認。友だち追加とメニュー操作で応募し、舟券購入・投票・視聴キーワード・CM感想投稿の要件はない。公開された友だち追加先が公式 LINE ページへ200で転送することも確認。",
+    "entryUrl": "https://lin.ee/UikVKUO",
+    "evidenceUrl": "https://lets-boatrace.jp/entertainment/cm/cp/2026episode/terms11/"
+  },
+  {
+    "sourceKey": "prtimes-gifts:4473:2073",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000002073.000004473.html",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000002073.000004473.html",
+    "title": "ウィズジェネレーション 事前登録記念プレゼント",
+    "status": "unknown",
+    "requirements": [
+      "無料リポストコースの対象投稿 URL を特定できず、実際の応募先が未確認。"
+    ],
+    "steps": [
+      "主催者発表では @wizgeneration をフォローし、対象投稿を通常リポストすると Amazon ギフトカード1000円分40名の抽選。",
+      "5000円分10名の別コースはアプリストア予約完了画面の投稿が必要。無料の通常リポストコースと混同しない。",
+      "11月30日23:59 JST まで。公式サイトとニュース一覧には X プロフィールへのリンクがあり、今回の実投稿リンクは見つからなかった。"
+    ],
+    "checkedAt": "2026-11-04T15:11:14.852726+00:00",
+    "evidenceExcerpt": "主催者は通常リポストとストア予約画面付き投稿を別コースとして明示。前者にストア予約は不要だが、今回の対象投稿がプロフィールリンクのみのため open にはしない。",
+    "catalogCorrection": {
+      "freeCoursePrize": "Amazonギフトカード1000円分40名",
+      "otherCourse": "Amazon5000円分10名はストア予約完了画面投稿コース。通常リポスト賞品として表示しない。"
+    }
+  },
+  {
+    "sourceKey": "prtimes-gifts:59295:54",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000054.000059295.html",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000054.000059295.html",
+    "title": "Langaku このセリフ、英語でどう言うの?SNSキャンペーン",
+    "status": "unknown",
+    "requirements": [
+      "対象の引用リポスト投稿 URL を特定できず、実際の応募先が未確認。"
+    ],
+    "steps": [
+      "@langaku_app をフォローし、対象投稿に英語で言ってみたいマンガのセリフを書いて引用リポストする手順。",
+      "高田馬場の広告を現地で見ていなくても参加可能と主催者が明記。Amazon1000円分5名、11月24日23:59 JST まで。"
+    ],
+    "checkedAt": "2026-11-04T15:11:15.028931+00:00",
+    "evidenceExcerpt": "参加方法本文には短いセリフ回答とフォロー・引用リポストを記載し、現地広告の閲覧を不要と明記。ただし公開されたリンクがプロフィールで、実際の対象投稿と追加規約の確認に至らない。"
+  },
+  {
+    "sourceKey": "prtimes-gifts:88805:16",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000016.000088805.html",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000016.000088805.html",
+    "title": "G1行政書士法人 アニメ配信開始記念プレゼント",
+    "status": "unknown",
+    "requirements": [
+      "キャンペーン対象投稿の URL と投稿側の追加注意事項が未確認。"
+    ],
+    "steps": [
+      "主催者発表では @magokorosouzoku のフォローと対象投稿のリポストで Amazon1100円分10名の抽選。",
+      "日本国内在住、公開 X アカウント、DM 受信が必要。11月10日23:59 JST まで。相続相談・書籍購入・番組視聴の要件は本文にない。"
+    ],
+    "checkedAt": "2026-11-04T15:11:15.067816+00:00",
+    "evidenceExcerpt": "主催者発表の応募方法と資格は確認したが、発表がリンクする先は X プロフィールのみ。実在する今回の対象投稿を未確認のため保留。"
+  },
+  {
+    "sourceKey": "prtimes-gifts:32953:6563",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000006563.000032953.html",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000006563.000032953.html",
+    "title": "魔王カリンちゃんRPG Xプレゼントキャンペーン",
+    "status": "conditional",
+    "requirements": [
+      "Amazon ギフトカードの抽選は11月2日23:59 JST に終了しており、11月5日現在は応募できない。",
+      "11月9日締切はオリジナル長袖 T シャツの別抽選で、金券企画の期限ではない。"
+    ],
+    "steps": [
+      "金券目的では応募対象から除外する。11月9日締切を Amazon コースに適用しない。"
+    ],
+    "checkedAt": "2026-11-04T15:11:15.168769+00:00",
+    "evidenceExcerpt": "主催者本文は Amazon 抽選を10月22日～11月2日23:59、長袖 T シャツ抽選を10月26日～11月9日23:59と分けている。従来カードは前者の賞品に後者の期限を結びつけていた。",
+    "deadlineCorrection": {
+      "deadline": "2026-11-02T14:59:00.000Z",
+      "deadlineJst": "2026-11-02T23:59:00+09:00",
+      "previousDeadline": "2026-11-09T14:59:00.000Z",
+      "scope": "Amazonギフトカード抽選",
+      "reason": "11月9日は別企画の長袖Tシャツ抽選の締切。金券抽選は終了済み。"
+    },
+    "catalogCorrection": {
+      "deadline": "2026-11-02T14:59:00.000Z",
+      "status": "expired",
+      "summary": "Amazonギフトカード抽選は11月2日23:59 JSTに終了。11月9日締切の長袖Tシャツ抽選と統合しない。"
+    }
+  },
+  {
+    "sourceKey": "prtimes-gifts:193648:1",
+    "officialUrl": "https://x.com/kto_osaka/status/2116455153435816258",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000001.000193648.html",
+    "title": "韓国観光公社 清州旅行 Xキャンペーン",
+    "status": "unknown",
+    "requirements": [
+      "主催者が明記する数値 ID 付き対象投稿は確認したが、X 側は403で投稿本体の実在・現在の表示内容を確認できない。",
+      "賞品は選択できない。航空券当選の場合、空港税・燃油特別付加運賃等は本人負担となる。"
+    ],
+    "steps": [
+      "公開規約では @kto_osaka をフォローし、無料の清州マップから行きたい場所を選び、対象投稿に #清州でここ行きたい を付けて引用リポスト。",
+      "飛行機写真は当選確率を上げる任意の追加手順で、基本応募には不要。18歳以上・日本国内在住・公開 X・国内連絡先を確認。",
+      "第1弾は11月13日23:59 JST まで。QUOカードPay1000円分100名と中部―清州往復航空券1名の共通抽選。"
+    ],
+    "checkedAt": "2026-11-04T15:11:15.228082+00:00",
+    "evidenceExcerpt": "主催者の公式応募規約 PDF 全文を確認。購入・渡航歴・現地訪問は基本応募条件ではない。対象投稿の具体 URL は PR 本文と規約にあるが X が403を返したため、実応募先の最終確認は未完了。",
+    "entryPostUrl": "https://x.com/kto_osaka/status/2116455153435816258",
+    "evidenceUrl": "https://www.cp-lp.jp/kto-gocheongju2026/kiyaku.pdf"
+  },
+  {
+    "sourceKey": "prtimes-gifts:46210:2618",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000002618.000046210.html",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000002618.000046210.html",
+    "title": "ファミマ 本気のチョコがけパン えらべるPayプレゼント",
+    "status": "unknown",
+    "requirements": [
+      "対象のキャンペーン投稿 URL と投稿側の応募注意事項が未確認。"
+    ],
+    "steps": [
+      "主催者本文では @famima_now をフォローし、対象投稿に #ファミマ本気のチョコがけパン を付けてコメントする手順。",
+      "えらべるPay10万円分1名、11月9日まで。商品の購入・試食・レシート・写真投稿は本文の応募方法にない。"
+    ],
+    "checkedAt": "2026-11-04T15:11:15.297064+00:00",
+    "evidenceExcerpt": "公式商品発表内の X 抽選の手順を確認したが、実際の対象投稿 URL がない。商品開発時の試食アンケート参加者23名という説明は応募対象者の限定条件ではない。"
+  },
+  {
+    "sourceKey": "prtimes-gifts:18653:778",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000778.000018653.html",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000778.000018653.html",
+    "title": "わんわんリゾート 犬の日Instagramプレゼント",
+    "status": "unknown",
+    "requirements": [
+      "11月1日の Instagram 対象投稿 URL とその投稿本文が未確認。"
+    ],
+    "steps": [
+      "主催者発表の基本応募は @ooedoonsen_wanwan_official のフォローと11月1日の対象投稿への「いいね」。",
+      "愛犬動画のリール投稿は当選確率を上げる任意の追加手順。犬の所有・宿泊履歴は基本応募資格に記載されていない。",
+      "18歳以上・日本国内在住。5000円分の宿泊ギフト券11名、11月14日まで。"
+    ],
+    "checkedAt": "2026-11-04T15:11:15.360394+00:00",
+    "evidenceExcerpt": "基本のフォロー・いいねと任意のリール動画投稿を主催者が分離。実際の対象 Instagram 投稿は特定できず、追加注意事項を確認できないため保留。"
+  },
+  {
+    "sourceKey": "prtimes-gifts:69250:403",
+    "officialUrl": "https://forms.cloud.microsoft/r/UXKkuR77NH",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000403.000069250.html",
+    "title": "SUN FRONTIER HOTELS CLUB 佐渡産新米プレゼント",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "SUN FRONTIER HOTELS CLUB に無料登録する。新規登録も対象。公式登録リンク https://book.hiyori-hotel.jp/sign-up?code=b0be79b21d2c634e26799015c3246ff7 を確認。",
+      "11月30日までに主催者が示す Microsoft Forms へ必要事項を入力。会員登録と同じメールアドレスを使う。",
+      "国内発送、1人1回。賞品は佐渡産純粋コシヒカリ5kg30名であり、金券の抽選ではない。"
+    ],
+    "checkedAt": "2026-11-04T15:22:20.187205+00:00",
+    "evidenceExcerpt": "主催者本文で新規会員も対象、入会金・年会費無料、宿泊や商品購入を伴わず応募可能と明記。実際の登録ページと応募フォームは200応答を確認した。フォーム送信は行っていない。",
+    "entryUrl": "https://forms.cloud.microsoft/r/UXKkuR77NH"
+  },
+  {
+    "sourceKey": "prtimes-gifts:14827:9859",
+    "officialUrl": "https://gamebiz.jp/enter-enter/shindan-kanteiskill",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000009859.000014827.html",
+    "title": "鑑定スキル×エンターエンタ 適職診断シェアキャンペーン",
+    "status": "unknown",
+    "requirements": [
+      "診断 LP は200応答だが本文が JavaScript 表示で、完全な応募資格・同意事項と診断後の実際の応募先を確認できない。"
+    ],
+    "steps": [
+      "主催者本文では5問の無料診断の結果をシェアし、@enterenter_gb と @kanteiskill の両方をフォロー。Amazon500円分20名。",
+      "12月25日23:59 JST まで。診断の専門知識は不要と説明されるが、登録・対象者等の追加条件は未確認。"
+    ],
+    "checkedAt": "2026-11-04T15:22:20.010062+00:00",
+    "evidenceExcerpt": "主催者発表から概要は確認したものの、リンク先の実診断画面・規約が読めず、必要な公開スクリプトも404だった。推測で open にしない。",
+    "entryUrl": "https://gamebiz.jp/enter-enter/shindan-kanteiskill/"
+  },
+  {
+    "sourceKey": "prtimes-gifts:5136:95",
+    "officialUrl": "https://www.monteur.co.jp/sweetasu2026cp",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000095.000005136.html",
+    "title": "モンテール スイータス リニューアル記念SNSプレゼント",
+    "status": "conditional",
+    "requirements": [
+      "QUOカード抽選は対象スイーツの購入、本人が撮影した写真、食べた感想の投稿が必要。"
+    ],
+    "steps": [
+      "金券コースは X または Instagram の公式アカウントをフォローし、購入した対象商品の写真と感想に指定ハッシュタグを付ける。QUO1000円分80名。",
+      "購入不要の別コースは X の引用リポスト／Instagram コメントで、賞品はスイーツ詰め合わせ20名。無料コースに QUO は含まれない。",
+      "11月30日23:59 JST まで。金券コースの写真は本人撮影で、AI 画像や他人の画像は不可。"
+    ],
+    "checkedAt": "2026-11-04T15:11:16.020622+00:00",
+    "evidenceExcerpt": "公式 LP の2コースを照合。無料の応援投稿の賞品と、実食・写真投稿が必要な QUO カード賞品を同一条件として表示してはいけない。",
+    "entryUrl": "https://www.monteur.co.jp/sweetasu2026cp",
+    "catalogCorrection": {
+      "freeCoursePrize": "スイーツ詰め合わせ20名",
+      "cashPrizeRequirement": "QUO1000円分80名は対象商品購入・写真・実食感想が必要"
+    }
+  },
+  {
+    "sourceKey": "prtimes-gifts:22656:1106",
+    "officialUrl": "https://www.softbank.jp/mobile/special/hawks-nipponchampions2026/",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001106.000022656.html",
+    "title": "ソフトバンクホークス日本一 誰でも応募プレゼント",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "公式 LP の「応募する」からホークス日本一キャンペーン応募フォームへ進む。PayPay30万円分1名または1000円分20名の希望賞品を選ぶ。",
+      "携帯電話番号・メールアドレス・利用中の携帯電話会社を入力し、応募規約に同意して11月10日23:59 JST までに送信する。",
+      "他社回線利用者も応募可。携帯電話会社の選択肢に「携帯電話を利用していない」もある。国内在住、1人1応募。",
+      "PayPay ポイント当選時は所定のコード受取・PayPay へのチャージ手続きを行う。来店特典や契約特典は別企画で、この応募には不要。"
+    ],
+    "checkedAt": "2026-11-04T15:17:10.517234+00:00",
+    "evidenceExcerpt": "実フォームには希望賞品、電話番号、メール、回線区分、同意欄があり、他社回線や携帯未利用も選べる。応募規約に購入・来店・契約・決済履歴の条件はなく、主催者 LP も誰でも応募可能と案内。",
+    "entryUrl": "https://mcdm.ent.mb.softbank.jp/promo/286170"
+  },
+  {
+    "sourceKey": "prtimes-gifts:27949:114",
+    "officialUrl": "https://alinamin-wankoouendan-cp.jp/",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000114.000027949.html",
+    "title": "アリナミン×サンリオ Xプレゼント 第1弾",
+    "status": "unknown",
+    "requirements": [
+      "当日の対象 X 投稿と画像から進む抽選サイトの URL を特定できず、実際の応募先が未確認。"
+    ],
+    "steps": [
+      "第1弾は11月2日10時～11月6日23:59 JST。@alinamin_jp をフォローし、その日の対象投稿を通常リポストする。",
+      "対象投稿の画像から抽選サイトへ進み、X 認証して結果を確認する手順。QUOカードPay500円分で、全4期を合わせ抽選20名。",
+      "「アリナミンでエール」付き引用リポストは当選確率を上げる任意操作。商品購入・レシートコースとは別。"
+    ],
+    "checkedAt": "2026-11-04T15:11:16.558649+00:00",
+    "evidenceExcerpt": "公式 LP の X コースは通常リポストを基本手順にしており、引用リポスト必須と読める PR の説明を修正する必要がある。LP 自体には当日の具体投稿リンクがなく保留。",
+    "catalogCorrection": {
+      "basicEntry": "フォロー＋通常リポスト＋対象投稿画像からX認証して抽選",
+      "optional": "指定文付き引用リポストは任意の当選確率アップ",
+      "prize": "QUOカードPay500円分、全4期合計20名"
+    }
+  },
+  {
+    "sourceKey": "prtimes-gifts:131734:56",
+    "officialUrl": "https://enjoystarbuckschilled.jp/merryberrychocolatelatte.html#linecp",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000056.000131734.html",
+    "title": "スターバックス オンラインサンタ グリーティングカード",
+    "status": "conditional",
+    "requirements": [
+      "抽選対象は作成・送信した本人ではなく、他の人からグリーティングカードを受け取った人。",
+      "LINE を通じた他者からのカード受信が前提となる。"
+    ],
+    "steps": [
+      "11月30日までに公式 LINE アプリ画面からカードを作り、友人等へ送る企画。購入は必要ない。",
+      "受け取った人がカードから抽選へ進む。Starbucks eGift500円分1000名。送信者が自動で抽選対象になる企画ではない。"
+    ],
+    "checkedAt": "2026-11-04T15:11:16.887403+00:00",
+    "evidenceExcerpt": "公式 LP にカードを受け取った人へ抽選のチャンスと明記。公開 LIFF リンクは確認したが、メッセージの送信や LINE 認証は操作していない。",
+    "entryUrl": "https://liff.line.me/1657569678-Kv3VWeK2",
+    "catalogCorrection": {
+      "eligibility": "カードの受信者が抽選対象。送信者自身にeGiftが当たると表示しない。"
+    },
+    "sourceKeys": [
+      "starbucks:santa-2026"
+    ]
+  },
+  {
+    "sourceKey": "prtimes-finance:27480:860",
+    "officialUrl": "https://suntory.jp/81844/",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000860.000027480.html",
+    "title": "BOSSとスターバックス コーヒーコレクション",
+    "status": "conditional",
+    "requirements": [
+      "対象 BOSS または STARBUCKS 商品の購入と有効レシート／購入明細の画像提出が必要。",
+      "レシートの購入有効期限は11月5日。応募期限の11月13日と異なる。"
+    ],
+    "steps": [
+      "スマートフォンで LINE 公式アカウントを友だち追加し、対象商品1本以上のレシートをアップロードする。",
+      "STARBUCKS 対象商品1本につき1ポイント。1ポイントの Starbucks eGift700円分500名コースへ応募する。BOSS 商品のポイントとは合算できない。",
+      "11月13日23:59 JST までに応募。Wチャンスのギフトは BOSS コース応募後のアンケートであり、購入不要の抽選ではない。"
+    ],
+    "checkedAt": "2026-11-04T15:17:10.699449+00:00",
+    "evidenceExcerpt": "サントリーの公式詳細 LP・規約は対象商品購入とレシート提出を明記。LINE 友だち追加だけでは応募できず、購入期限と応募期限も別。",
+    "entryUrl": "https://suntory-coffee-collectioncampaign.suntory.co.jp/lp/",
+    "catalogCorrection": {
+      "purchaseDeadlineJst": "2026-11-05",
+      "entryDeadline": "2026-11-13T14:59:00.000Z"
+    }
+  },
+  {
+    "sourceKey": "retail:https://www.majica-net.com/campaign/starbucks/",
+    "officialUrl": "https://www.majica-net.com/campaign/starbucks/",
+    "sourceUrl": "https://www.majica-net.com/campaign/",
+    "title": "スターバックス製品を2個以上購入して応募しよう！ おうちスターバックスキャンペーン",
+    "status": "conditional",
+    "requirements": [
+      "対象店舗で Starbucks 対象商品を2個以上購入し、majica を提示してマイルを貯めることが必要。",
+      "majica アプリの登録当日は対象外で、登録翌日以降の購入が対象。"
+    ],
+    "steps": [
+      "majica アプリに登録し、翌日以降に対象店舗で対象商品2個以上を購入。レジで majica を提示する。",
+      "2マイル以上でアプリの購入お礼メッセージ内のフォームから応募する。",
+      "賞品はオリジナルトート等、1000majicaポイント、500majicaポイント。Starbucks eGift の賞品ではない。"
+    ],
+    "checkedAt": "2026-11-04T15:11:17.671324+00:00",
+    "evidenceExcerpt": "公式 LP のマイル獲得・応募方法と登録日の扱い、全賞品を確認。Starbucks ブランド名があるが eGift 抽選ではなく、商品購入が前提。",
+    "entryUrl": "https://www.majica-net.com/campaign/starbucks/",
+    "catalogCorrection": {
+      "prizes": "オリジナルグッズ／majicaポイント。Starbucks eGiftではない。"
+    }
+  },
+  {
+    "sourceKey": "prtimes-gifts:13971:242",
+    "officialUrl": "https://lp.arplat.jp/chikai/",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000242.000013971.html",
+    "title": "アルプラ 日本橋「誓いの灯火」QUOカードPayプレゼント",
+    "status": "conditional",
+    "requirements": [
+      "AR アプリのゲーム進行・ストーリークリアが必要。日本橋で位置情報を使って実際に周遊する企画。",
+      "高額賞品のコースは第3章第3話クリアとアンケート回答が必要。"
+    ],
+    "steps": [
+      "無料 AR アプリを入れ、該当ストーリーの条件を達成してアプリ内告知の応募フォームへ進む。",
+      "プロローグ完了は QUOカードPay1000円分100名、第1章第1話は5000円分50名、第3章第3話と回答は10万円分1名。",
+      "11月30日23:59 JST まで。通常の短いアンケートだけで高額金券に応募できる企画ではない。"
+    ],
+    "checkedAt": "2026-11-04T15:11:17.996066+00:00",
+    "evidenceExcerpt": "公式発表の各応募コースはアプリ内の達成条件に分かれ、イベント自体は日本橋での AR 周遊を必要とする。ゲーム体験・来訪条件を除去して open とはしない。",
+    "entryUrl": "https://lp.arplat.jp/chikai/"
+  },
+  {
+    "sourceKey": "prtimes-gifts:136381:48",
+    "officialUrl": "https://clargehome.jp/lp/gogogo2026/",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000048.000136381.html",
+    "title": "クラージュホーム GO!GO!GO!キャンペーン",
+    "status": "conditional",
+    "requirements": [
+      "賞品を選ぶ欄がなく、住宅資金に当選した場合は主催者での契約、2027年3月末までの着工、撮影・取材等への協力が必要。",
+      "応募時点で主催者と工事請負契約を締結済みの方は対象外。"
+    ],
+    "steps": [
+      "抽選会自体は Web アンケートと応募者情報の登録で応募でき、来場は不要。フォームには建築の予定がない選択肢もある。",
+      "国内20歳以上、1世帯1回。JCB1万円25組、ホテルギフト券22組、条件付き住宅資金8組の共通抽選。",
+      "Amazon 最大5万円の来場・審査特典はこの抽選会とは別。無料アンケートの賞品として表示しない。"
+    ],
+    "checkedAt": "2026-11-04T15:17:10.685978+00:00",
+    "evidenceExcerpt": "公式 LP は来場不要を明記し、実フォームも建築予定なしを許容。しかし共通抽選の住宅資金には契約・着工・広告協力条件があり、賞品選択欄がないため条件付き混在企画として扱う。",
+    "entryUrl": "https://clargehome.jp/lp/gogogo2026/input.php",
+    "catalogCorrection": {
+      "freeDrawing": "JCBギフト／宿泊ギフト／条件付き住宅資金の共通抽選。Webアンケート自体は来場不要。",
+      "amazonCourse": "最大5万円Amazonギフトは別の来場・審査特典。無料抽選賞品と混同しない。"
+    }
+  },
+  {
+    "sourceKey": "prtimes-gifts:34798:655",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000655.000034798.html",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000655.000034798.html",
+    "title": "audiobook.jp 読書の秋応援キャンペーン2026",
+    "status": "conditional",
+    "requirements": [
+      "audiobook.jp で1日30分以上を3日間聴くサービス体験が必要。"
+    ],
+    "steps": [
+      "対象期間中の聴取実績を3日間満たすと自動で抽選対象になる。QUOカードPay1000円分25名。",
+      "11月15日まで。単に無料登録やアンケート回答だけで抽選対象になるものではない。"
+    ],
+    "checkedAt": "2026-11-04T15:11:18.391736+00:00",
+    "evidenceExcerpt": "主催者本文の金券コースは1日30分以上・3日間の聴取実績を条件にしている。聴くためのコンテンツが無料かどうかにかかわらず、体験条件があるため conditional。"
+  },
+  {
+    "sourceKey": "prtimes-gifts:8784:596",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000596.000008784.html",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000596.000008784.html",
+    "title": "ドトールグループ 第1回おとなくもんクイズ",
+    "status": "conditional",
+    "requirements": [
+      "対象カフェ店舗のポスター QR から参加する来店条件がある。",
+      "クイズの正解成績に応じて抽選グループが変わる。Wチャンスは10日間の参加が必要。"
+    ],
+    "steps": [
+      "店頭 QR から無料登録して毎日7問のクイズに回答する。期間は11月1日～30日。",
+      "QUOカードPay1500円／300円分などを含む抽選。公開されたおためしサイトは練習であり賞品応募先ではない。"
+    ],
+    "checkedAt": "2026-11-04T15:11:18.528297+00:00",
+    "evidenceExcerpt": "主催者本文は店頭掲示 QR での参加、クイズ成績に基づく抽選、Wチャンスの参加日数を明示。無料クイズという理由で来店条件を省略しない。"
+  },
+  {
+    "sourceKey": "prtimes-gifts:15422:225",
+    "officialUrl": "https://contact.iodata.jp/webentry/enq/form/sumaho-retire-cp",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000225.000015422.html",
+    "title": "アイオーデータ×チカク スマホリタイア川柳",
+    "status": "unknown",
+    "requirements": [
+      "購入・川柳投稿不要の参加賞コースは確認できたが、対象リポスト投稿 URL を特定できない。",
+      "公開されている Web フォームは本人の未発表川柳を提出するコースで、フォロー・リポストだけのコースではない。"
+    ],
+    "steps": [
+      "無料の参加賞コースは @io_data と @chikakuofficial をフォローし、対象投稿をリポスト。えらべるPay500円分100名の抽選に参加する。",
+      "最高5万円は川柳作品の選考賞であり、リポストのみの賞品ではない。",
+      "11月23日23:59 JST まで。国内在住、未成年は保護者同意、公開 X と DM 受信が必要。"
+    ],
+    "checkedAt": "2026-11-04T15:11:18.803635+00:00",
+    "evidenceExcerpt": "主催者本文は川柳投稿コースとフォロー・リポストコースを分け、参加賞500円のみを両コース共通にしている。Web フォーム規約も読んだが、リポストコースの実対象投稿を確認できないため unknown。",
+    "catalogCorrection": {
+      "freeCoursePrize": "えらべるPay500円分100名",
+      "otherCourse": "最高5万円は本人作・未発表川柳の投稿と選考が必要",
+      "entryFormScope": "既存 officialUrl の Web フォームは川柳提出コース専用"
+    }
+  },
+  {
+    "sourceKey": "prtimes-gifts:123523:172",
+    "officialUrl": "https://sell.bookoff.co.jp/online/mochikomi",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000172.000123523.html",
+    "title": "ブックオフ 持ち込み発送15万件突破プレゼント",
+    "status": "conditional",
+    "requirements": [
+      "ブックオフ宅配買取の持ち込み発送サービスを実際に利用し、買取品を発送することが必要。"
+    ],
+    "steps": [
+      "対象期間11月2日～30日にサービスを利用して応募条件を満たす。えらべるPay500円分600名の抽選。",
+      "会員登録だけでは対象にならず、物品の買取依頼・発送が前提。"
+    ],
+    "checkedAt": "2026-11-04T15:11:19.117805+00:00",
+    "evidenceExcerpt": "公式発表とサービス LP は持ち込み発送の利用者を対象にする。サービス利用料の有無とは別に、品物を送る実利用条件がある。",
+    "entryUrl": "https://sell.bookoff.co.jp/online/mochikomi"
+  },
+  {
+    "sourceKey": "prtimes-gifts:33277:295",
+    "officialUrl": "https://prtimes.jp/main/html/rd/p/000000295.000033277.html",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000295.000033277.html",
+    "title": "ポーターズ 人材事業の利益率とAI活用 アンケート",
+    "status": "conditional",
+    "requirements": [
+      "人材派遣・人材紹介等の人材事業会社の業務従事者が対象で、一般消費者向けではない。"
+    ],
+    "steps": [
+      "対象業務に従事する方が5～10分のアンケートに回答。Amazon2000円分50名。",
+      "11月20日23:59 JST まで。公開された Microsoft Forms が応募窓口。"
+    ],
+    "checkedAt": "2026-11-04T15:11:19.267853+00:00",
+    "evidenceExcerpt": "主催者が人材事業会社の方を対象とする調査であることを本文の対象者欄で確認。無料かつ簡単な回答でも職業要件があるため conditional。",
+    "entryUrl": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=Q6ok29S4IUOOEupCABjqZ1AxEy6y0R1MsLwAA_tTA6tUMlo2QjZYNlFBSk5IVlIyU0xKQlU2UzhMMS4u&route=shorturl"
+  },
+  {
+    "sourceKey": "prtimes-gifts:132000:19",
+    "officialUrl": "https://book-meets-next.com/",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000019.000132000.html",
+    "title": "BOOK MEETS NEXT BOOKスタンプラリー",
+    "status": "conditional",
+    "requirements": [
+      "対象書店を訪れ、店頭ポスターの QR からスタンプを集める必要がある。"
+    ],
+    "steps": [
+      "10月24日～11月23日に対象書店へ来店してスタンプ取得。1店1日1回。",
+      "1スタンプで図書カードNEXT2000円分1000名、3スタンプでホテルギフト5万円10名、5スタンプで図書カードNEXT10万円5名の応募。",
+      "購入は不要でもオンラインだけでは完結しない。別のハッシュタグ投稿企画と賞品・条件を合算しない。"
+    ],
+    "checkedAt": "2026-11-04T15:11:19.686881+00:00",
+    "evidenceExcerpt": "公式発表と公式サイトのスタンプラリー導線を確認。書店内の QR を使う来店条件があり、無料登録や SNS 操作だけの応募ではない。",
+    "entryUrl": "https://book-meets-next.com/"
+  },
+  {
+    "sourceKey": "prtimes-gifts:117030:654",
+    "officialUrl": "https://cc-moola.com/lp/campaign",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000654.000117030.html",
+    "title": "ココモーラ 第2弾口コミ投稿キャンペーン",
+    "status": "conditional",
+    "requirements": [
+      "サービス・金融商品等の口コミレビュー投稿で抽選チケットを獲得する必要がある。"
+    ],
+    "steps": [
+      "無料の LINE ログイン・友だち登録後、ガイドラインに沿って実際の口コミを投稿しチケットを獲得する。",
+      "5／10／15チケットで1000円／5000円／1万円分のギフトに応募。11月16日12時 JST まで。",
+      "無料 LINE 登録だけの抽選ではない。公式規約は BOT・自動化による応募を禁じている。"
+    ],
+    "checkedAt": "2026-11-04T15:11:20.016415+00:00",
+    "evidenceExcerpt": "公式 LP・規約と主催者発表で、口コミ投稿と必要チケット枚数を確認。購入費が必須でなくてもレビューという追加作業条件がある。",
+    "entryUrl": "https://cc-moola.com/lp/campaign"
   }
 ]

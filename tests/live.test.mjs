@@ -1,4 +1,4 @@
-import {entryConditions,isOpenEntry} from '../.sites-runtime/tests/entry-conditions.mjs';
+import {entryConditions,isOpenEntry,reviewedDeadline} from '../.sites-runtime/tests/entry-conditions.mjs';
 import {load} from 'cheerio/slim';
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
@@ -6,7 +6,7 @@ import {DatabaseSync} from 'node:sqlite';
 import {readFileSync,readdirSync} from 'node:fs';
 import {createECDH,randomBytes} from 'node:crypto';
 import {parseKirin,parseFamily,parseQuo,parseStarbucks,parseStarbucksBingo,officialImage,dateFromJapanese,matchesWish} from '../.sites-runtime/tests/campaigns.mjs';
-import {ingest,addWish,bootstrap,finishSource} from '../.sites-runtime/tests/live-store.mjs';
+import {ingest,addWish,bootstrap,finishSource,activeCampaigns,toClient} from '../.sites-runtime/tests/live-store.mjs';
 import {canonicalCampaignUrl,campaignIdentity} from '../.sites-runtime/tests/catalog-identity.mjs';
 import {parseOfficialIndex,parseDocomoIndex,revalidateSnapshot,SNAPSHOT_RECORDS,SNAPSHOT_SOURCES} from '../.sites-runtime/tests/official-indexes.mjs';
 import {deliverPending,validSubscription,sendPush} from '../.sites-runtime/tests/push.mjs';
@@ -127,4 +127,30 @@ test('追加条件なしの新規だけを収集し、既存の条件付き情�
 test('通知作成後に条件が判明した企画へブラウザ通知を送らない',async()=>{
  const {sql,db}=database();await addWish(db,'alice','コーヒー',true);await ingest(db,[campaign('late-condition')]);sql.prepare("UPDATE campaigns SET summary='JAF会員限定' WHERE id=1").run();
  let calls=0;const previous=globalThis.fetch;globalThis.fetch=async()=>{calls++;return new Response(null,{status:201});};try{await deliverPending({...vapid(),DB:db});assert.equal(calls,0);assert.equal(sql.prepare('SELECT push_status FROM notifications').get().push_status,'filtered_conditions');}finally{globalThis.fetch=previous;}
+});
+
+
+test('未確認から公式確認済みに変わった既存企画も、新しい一致として一度だけ通知する',async()=>{
+ const {sql,db}=database();await addWish(db,'alice','コーヒー',true);const item={...campaign('review-transition'),evidence:{}};
+ await ingest(db,[item]);assert.equal(sql.prepare('SELECT COUNT(*) AS n FROM notifications').get().n,0);
+ const reviewed={...item,evidence:{entryConditionsVerified:true}};const result=await ingest(db,[reviewed]);assert.equal(result.added,0);assert.equal(result.notifications,1);
+ await ingest(db,[reviewed]);assert.equal(sql.prepare('SELECT COUNT(*) AS n FROM notifications').get().n,1);
+});
+
+test('公式規約の再確認は古い一覧の購入フラグより優先し、実在する応募先へ案内する',()=>{
+ const reviewed={...campaign('prtimes-gifts:27316:338'),officialUrl:'https://cp.myseriesprint.com/cp/11',free:false};
+ const entry=entryConditions(reviewed);assert.equal(entry.status,'open');assert.equal(entry.purchaseFree,true);assert.ok(entry.steps.some(s=>s.includes('@myseries_ss')));
+ assert.ok(!entry.entryUrl||new URL(entry.entryUrl).protocol==='https:');
+});
+
+
+test('公式確認で訂正した金券の終了日は、古いDBの掲載期限より優先して除外する',async()=>{
+ const {db}=database();const original=SNAPSHOT_RECORDS.find(c=>c.sourceKey==='prtimes-gifts:32953:6563');assert.ok(original);
+ const stale={...original,deadline:new Date(Date.now()+86400000).toISOString()};await ingest(db,[stale]);assert.equal(reviewedDeadline(stale),'2026-11-02T14:59:00.000Z');assert.equal((await activeCampaigns(db)).length,0);
+ const stored=await db.prepare('SELECT * FROM campaigns').first();assert.equal(toClient(stored).deadlineAt,'2026-11-02T14:59:00.000Z');
+});
+
+test('新しい継続抽選の公式本文を再検証し、購入不要・翌月抽選を明示する',()=>{
+ const source=SNAPSHOT_SOURCES.find(s=>s.id==='denki-erabi');assert.ok(source);const html='<main><h1>LINE友だち追加キャンペーン 規約</h1><p>スターバックス eGift 500円分が毎月10名に当たる。友だち追加だけで応募。購入・申込不要。</p></main>';
+ const rows=revalidateSnapshot(source,html,new Date());assert.equal(rows.length,1);const entry=entryConditions(rows[0]);assert.equal(entry.status,'open');assert.ok(entry.steps.some(s=>s.includes('翌月')));assert.equal(entry.entryUrl,'https://line.me/R/ti/p/@820iliiz');
 });
