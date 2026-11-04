@@ -45,3 +45,12 @@ The search loads up to 5,000 active records and renders 30 per page. The progres
 Add a native adapter in `lib/official-indexes.ts`, or add a reviewed source and records to `lib/expanded-catalog.json`. Use the `CampaignInput` type from `lib/campaign-core.ts`; unknown dates, counts and conditions remain null. Each reviewed record needs an official entry URL, source URL and verifiable evidence. Include concrete CSS/structured-row identifiers for future revalidation. Multiple prize options within the same draw remain one campaign. Known same-campaign URL aliases need direct official evidence.
 
 Local migration setup is `npm run db:migrate:local`; `wrangler.local.jsonc` contains a placeholder D1 ID and must not be used as production configuration. The included data is a time-stamped research snapshot and is filtered/revalidated on collection. Tests do not contact organizers or submit applications.
+
+
+## Entry condition policy (2026-11-04)
+
+Default recommendations, search and new wish notifications include only `open` campaigns with reviewed simple entry conditions. Purchase-free metadata alone is insufficient: unreviewed eligibility is `unknown`. Free signup, SNS follow/repost, and simple surveys/quizzes are allowed. Purchase/receipts, paid membership/contracts, bank/payment use, physical visits, narrow audience/location, broadcast codes and mandatory product reviews/creative submissions are restrictive. Japan residency and ordinary age/DM eligibility remain visible basic qualifications.
+
+`lib/entry-reviews.json` records the exact official URL, source key/title, reviewed requirements, free steps, primary source URL and review timestamp. Recheck the complete terms before marking `open`; maintain this evidence as campaigns change. `entry-conditions.ts` derives conservative labels from available evidence for older records. Cards display labels and details expose each requirement, source and steps. Unknown detail stays unknown. Existing conditional entries remain available through explicit filters and saved history.
+
+The refresh writer uses `open_new`: existing records can be revalidated in any state; new conditional/unknown records are skipped. New site notices, wish backfill and browser push enforce the same condition policy. The status endpoint reports open/conditional/unknown counts. The hourly cursor updater is unchanged; daily source discovery prioritizes reviewed simple campaigns rather than growing conditional counts.
