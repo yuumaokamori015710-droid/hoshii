@@ -2109,7 +2109,8 @@
     ],
     "checkedAt": "2026-11-04T23:47:01.115604+00:00",
     "evidenceExcerpt": "現在の主催局プレゼント掲載と実応募フォーム全文を確認。メッセージ送信者から毎月抽選であり、採用者限定ではない。フォームの入力項目・注意事項に購入、来店、既存契約、対象地域や職業の限定はない。",
-    "entryUrl": "https://fma.co.jp/f/present/oubo/?id=YQuVa3mg"
+    "entryUrl": "https://fma.co.jp/f/present/oubo/?id=YQuVa3mg",
+    "summaryCorrection": "公式Webフォームから応募。毎月1名にAmazonギフトカード5,000円分。メッセージは任意で、病院利用や放送コードは不要。具体的な月内締切時刻は公式記載なし。"
   },
   {
     "sourceKey": "fmaichi:https://fma.co.jp/f/present/?id=wgOmxlHK",
@@ -2126,6 +2127,7 @@
     ],
     "checkedAt": "2026-11-04T23:47:01.245627+00:00",
     "evidenceExcerpt": "主催局の募集本文と実フォーム全文を確認。中部の現役学生は番組の取材対象の説明であり、応募者限定条件ではない。フォームは学校名とメッセージを明示的に任意とし、全都道府県・幅広い職業を選べる。",
-    "entryUrl": "https://fma.co.jp/f/present/oubo/?id=wgOmxlHK"
+    "entryUrl": "https://fma.co.jp/f/present/oubo/?id=wgOmxlHK",
+    "summaryCorrection": "公式Webフォームから応募。毎週1名にAmazonギフトカード1,000円分。学校名・メッセージは任意で、学生や中部在住に限定されません。具体的な締切曜日・時刻は公式記載なし。"
   }
 ]

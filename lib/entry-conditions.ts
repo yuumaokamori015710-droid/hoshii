@@ -23,6 +23,7 @@ function reviewed(c:any){
 }
 function entryLink(value:unknown){if(typeof value!=='string'||/[\[\]<>]|CONTEST_POST_ID|PLACEHOLDER/i.test(value))return null;try{const u=new URL(value);return u.protocol==='https:'&&!u.username&&!u.password&&!u.port?u.href:null;}catch{return null;}}
 export function reviewedDeadline(c:any):string|undefined{const correction=reviewed(c)?.deadlineCorrection;const value=typeof correction==='string'?correction:correction?.deadline;return typeof value==='string'&&Number.isFinite(Date.parse(value))?new Date(value).toISOString():undefined;}
+export function reviewedSummary(c:any):string|undefined{const value=reviewed(c)?.summaryCorrection;return typeof value==='string'&&norm(value)?norm(value):undefined;}
 function excerpt(parts:string[],pattern:RegExp,fallback:string){
  const part=parts.find(p=>pattern.test(withoutNegations(p)));if(!part)return fallback;
  const sentence=part.split(/(?<=[。！!?？])\s*/).find(s=>pattern.test(withoutNegations(s)))||part;

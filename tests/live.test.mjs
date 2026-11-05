@@ -14,6 +14,12 @@ function database(){const sql=new DatabaseSync(':memory:');for(const file of rea
 function campaign(key,title='コーヒーのプレゼント'){const at=new Date().toISOString();return {sourceId:'kirin',sourceKey:key,title,brand:'キリン',officialUrl:'https://www.kirin.co.jp/campaign/'+key+'/',sourceUrl:'https://www.kirin.co.jp/campaign/',summary:'コーヒーが当たるキャンペーン',category:'食品',methods:['Web'],tags:['コーヒー'],deadline:new Date(Date.now()+86400000).toISOString(),startsAt:at,winners:null,free:true,noRegistration:null,daily:null,instant:null,ageRestricted:false,imageUrl:'https://campaign.kirin.co.jp/campaign/images/example',imageSourceUrl:'https://www.kirin.co.jp/campaign/',evidence:{entryConditionsVerified:true}};}
 function subscription(suffix='a'){const c=createECDH('prime256v1');c.generateKeys();return {endpoint:'https://fcm.googleapis.com/fcm/send/'+suffix,keys:{p256dh:c.getPublicKey().toString('base64url'),auth:randomBytes(16).toString('base64url')}};}
 function vapid(){const v=createECDH('prime256v1');v.generateKeys();return {VAPID_PUBLIC_KEY:v.getPublicKey().toString('base64url'),VAPID_PRIVATE_KEY:v.getPrivateKey().toString('base64url'),VAPID_SUBJECT:'https://example.com'};}
+test('公式フォームで再確認した説明が古い応募制限の要約を置き換える',async()=>{
+ const {db}=database();const c={...campaign('fmaichi:https://fma.co.jp/f/present/?id=wgOmxlHK'),sourceId:'fmaichi',officialUrl:'https://fma.co.jp/f/present/?id=wgOmxlHK',summary:'番組へのメッセージ、テーマ投稿、放送聴取等が条件です。'};
+ await ingest(db,[c]);const row=await db.prepare('SELECT * FROM campaigns').first();const client=toClient(row);
+ assert.equal(client.entryConditions.status,'open');assert.match(client.summary,/学校名・メッセージは任意/);assert.doesNotMatch(client.summary,/放送聴取等が条件/);
+ assert.equal(toClient({...row,official_url:'https://fma.co.jp/f/present/?id=other'}).summary,c.summary);
+});
 test('公式URLの追跡値を除き、くじの必須ハッシュ経路と異なる応募IDを維持する',()=>{
  assert.equal(canonicalCampaignUrl('https://example.com/cp/?utm_source=a&id=2#apply'),'https://example.com/cp?id=2');
  assert.notEqual(canonicalCampaignUrl('https://lot.tsite.jp/#/detail2/123'),canonicalCampaignUrl('https://lot.tsite.jp/#/detail2/456'));
