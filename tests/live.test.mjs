@@ -20,6 +20,32 @@ test('公式フォームで再確認した説明が古い応募制限の要約�
  assert.equal(client.entryConditions.status,'open');assert.match(client.summary,/学校名・メッセージは任意/);assert.doesNotMatch(client.summary,/放送聴取等が条件/);
  assert.equal(toClient({...row,official_url:'https://fma.co.jp/f/present/?id=other'}).summary,c.summary);
 });
+test('金券の公式規約訂正を表示・締切・一致通知に適用する',async()=>{
+ const {sql,db}=database();
+ const wagyu=SNAPSHOT_RECORDS.find(c=>c.sourceKey==='prtimes-tourism:53539:358');
+ const agripower=SNAPSHOT_RECORDS.find(c=>c.sourceKey==='tfm:https://www.tfm.co.jp/agripower/');
+ const fm=SNAPSHOT_RECORDS.find(c=>c.sourceKey==='fmaichi:https://fma.co.jp/f/present/?id=YQuVa3mg');
+ assert.ok(wagyu&&agripower&&fm);
+ assert.equal(wagyu.free,false); // Existing database metadata must not defeat the verified rules.
+ assert.equal(entryConditions(wagyu).status,'open');
+ assert.ok(entryConditions(wagyu).steps.some(s=>s.includes('購読は必須')));
+ assert.equal(reviewedDeadline(wagyu),'2026-12-25T09:00:00.000Z');
+ assert.equal(entryConditions(agripower).status,'unknown');
+ assert.equal(isOpenEntry(agripower),false);
+ assert.equal(entryConditions(agripower).entryUrl,null);
+ await addWish(db,'alice','ギフトカード',true);
+ await ingest(db,[wagyu,agripower,fm]);
+ const view=await bootstrap({DB:db},'alice');
+ const w=view.campaigns.find(c=>c.officialUrl===wagyu.officialUrl);
+ const f=view.campaigns.find(c=>c.officialUrl===fm.officialUrl);
+ assert.equal(w.deadlineAt,'2026-12-25T09:00:00.000Z');
+ assert.match(f.summary,/メッセージを添えて/);
+ assert.doesNotMatch(f.summary,/メッセージは任意/);
+ const a=sql.prepare('SELECT id FROM campaigns WHERE source_key=?').get(agripower.sourceKey);
+ assert.equal(sql.prepare('SELECT COUNT(*) AS n FROM notifications WHERE campaign_id=?').get(a.id).n,0);
+ await ingest(db,[wagyu,agripower,fm]);
+ assert.equal(sql.prepare('SELECT COUNT(*) AS n FROM notifications').get().n,2);
+});
 test('公式URLの追跡値を除き、くじの必須ハッシュ経路と異なる応募IDを維持する',()=>{
  assert.equal(canonicalCampaignUrl('https://example.com/cp/?utm_source=a&id=2#apply'),'https://example.com/cp?id=2');
  assert.notEqual(canonicalCampaignUrl('https://lot.tsite.jp/#/detail2/123'),canonicalCampaignUrl('https://lot.tsite.jp/#/detail2/456'));
