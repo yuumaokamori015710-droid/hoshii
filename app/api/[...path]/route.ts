@@ -1,7 +1,7 @@
 import { ENTRY_POLICY, conditionCounts } from '../../../lib/entry-conditions';
 import { SOURCES } from '../../../lib/campaigns';
 import { env } from 'cloudflare:workers';
-import { addWish,bootstrap,refresh,nowISO,activeCampaigns } from '../../../lib/live-store';
+import { addWish,bootstrap,refresh,nowISO,activeCampaigns,LATEST_SOURCE_RUNS_SQL } from '../../../lib/live-store';
 import { sendPush,validSubscription } from '../../../lib/push';
 export const dynamic='force-dynamic';
 const json=(data:unknown,status=200)=>Response.json(data,{status,headers:{'cache-control':'private, no-store','x-content-type-options':'nosniff'}});
@@ -9,7 +9,7 @@ async function handle(request:Request){const runtime=env as Cloudflare.Env & {DB
 try{
  // The Site is owner-private. Dispatch authorizes service callers before this shared updater.
  if(path==='refresh'&&method==='POST'){const b=await request.json().catch(()=>({})) as any;return json(await refresh(runtime,{cursor:Number(b.cursor)||0}));}
- if(path==='catalog/status'&&method==='GET'){const rows=await activeCampaigns(runtime.DB);const summary={count:rows.length,uniqueCount:new Set(rows.map(c=>c.canonical_key||c.official_url)).size,images:rows.filter(c=>c.image_url).length,gifts:rows.filter(c=>c.category==='金券').length,starbucks:rows.filter(c=>c.source_id==='starbucks').length};const checks=await runtime.DB.prepare('SELECT s.source_id,s.status,s.count,s.finished_at,s.error FROM sync_runs s WHERE s.started_at=(SELECT MAX(x.started_at) FROM sync_runs x WHERE x.source_id=s.source_id) ORDER BY s.finished_at DESC').all();return json({revision:'hoshii-live-v3',catalog:summary,conditions:conditionCounts(rows),entryPolicy:ENTRY_POLICY,checks:checks.results});}
+ if(path==='catalog/status'&&method==='GET'){const rows=await activeCampaigns(runtime.DB);const summary={count:rows.length,uniqueCount:new Set(rows.map(c=>c.canonical_key||c.official_url)).size,images:rows.filter(c=>c.image_url).length,gifts:rows.filter(c=>c.category==='金券').length,starbucks:rows.filter(c=>c.source_id==='starbucks').length};const checks=await runtime.DB.prepare(LATEST_SOURCE_RUNS_SQL).all();return json({revision:'hoshii-live-v3',catalog:summary,conditions:conditionCounts(rows),entryPolicy:ENTRY_POLICY,checks:checks.results});}
  if(path==='automation/instructions'&&method==='GET')return json({revision:'hoshii-live-v3',method:'POST',path:'/api/refresh',entryPolicy:ENTRY_POLICY,scope:'official organizer, issuer and joint-campaign evidence only',batch:{firstBody:{cursor:0},maxSourcesPerRequest:4,maxPageRequestsPerBatch:24,continuation:'Repeat POST with response.nextCursor until complete=true. When busy=true retry the same cursor later. Never count a pending or failed source as collected.'},cadence:'hourly',notificationPolicy:'notify the visitor only for new matching campaigns with verified simple entry conditions; stay quiet for unchanged results',sourceCount:SOURCES.length});
  if(!uid)return json({error:'ログインが必要です',signIn:'/signin-with-chatgpt?return_to=/'},401);
  if(path==='bootstrap'&&method==='GET')return json(await bootstrap(runtime,uid));

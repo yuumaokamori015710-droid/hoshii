@@ -6,7 +6,7 @@ import {DatabaseSync} from 'node:sqlite';
 import {readFileSync,readdirSync} from 'node:fs';
 import {createECDH,randomBytes} from 'node:crypto';
 import {parseKirin,parseFamily,parseQuo,parseStarbucks,parseStarbucksBingo,officialImage,dateFromJapanese,matchesWish} from '../.sites-runtime/tests/campaigns.mjs';
-import {ingest,addWish,bootstrap,finishSource,activeCampaigns,toClient} from '../.sites-runtime/tests/live-store.mjs';
+import {ingest,addWish,bootstrap,finishSource,activeCampaigns,toClient,LATEST_SOURCE_RUNS_SQL} from '../.sites-runtime/tests/live-store.mjs';
 import {canonicalCampaignUrl,campaignIdentity} from '../.sites-runtime/tests/catalog-identity.mjs';
 import {parseOfficialIndex,parseDocomoIndex,revalidateSnapshot,SNAPSHOT_RECORDS,SNAPSHOT_SOURCES} from '../.sites-runtime/tests/official-indexes.mjs';
 import {deliverPending,validSubscription,sendPush} from '../.sites-runtime/tests/push.mjs';
@@ -20,6 +20,7 @@ test('公式フォームで再確認した説明が古い応募制限の要約�
  assert.equal(client.entryConditions.status,'open');assert.match(client.summary,/学校名・メッセージは任意/);assert.doesNotMatch(client.summary,/放送聴取等が条件/);
  assert.equal(toClient({...row,official_url:'https://fma.co.jp/f/present/?id=other'}).summary,c.summary);
 });
+
 test('金券の公式規約訂正を表示・締切・一致通知に適用する',async()=>{
  const {sql,db}=database();
  const wagyu=SNAPSHOT_RECORDS.find(c=>c.sourceKey==='prtimes-tourism:53539:358');
@@ -45,6 +46,25 @@ test('金券の公式規約訂正を表示・締切・一致通知に適用す�
  assert.equal(sql.prepare('SELECT COUNT(*) AS n FROM notifications WHERE campaign_id=?').get(a.id).n,0);
  await ingest(db,[wagyu,agripower,fm]);
  assert.equal(sql.prepare('SELECT COUNT(*) AS n FROM notifications').get().n,2);
+});
+
+test('更新履歴が増えても全行ごとの再走査をせず、収集元ごとの直近結果を返す',async()=>{
+ const {sql,db}=database();
+ const insert=sql.prepare('INSERT INTO sync_runs(id,source_id,started_at,finished_at,status,count,error) VALUES(?,?,?,?,?,?,?)');
+ for(let i=0;i<2000;i++){
+  const at=new Date(Date.UTC(2026,9,1,0,i)).toISOString();
+  insert.run('a'+i,'kirin',at,at,i===1999?'error':'ok',i===1999?0:2,i===1999?'upstream unavailable':null);
+  insert.run('b'+i,'family',at,at,'ok',3,null);
+ }
+ const latest=sql.prepare(LATEST_SOURCE_RUNS_SQL).all();
+ assert.equal(latest.length,2);
+ assert.equal(latest.find(x=>x.source_id==='kirin').status,'error');
+ assert.equal(latest.find(x=>x.source_id==='family').count,3);
+ assert.ok(sql.prepare('EXPLAIN QUERY PLAN '+LATEST_SOURCE_RUNS_SQL).all().every(x=>!/CORRELATED/i.test(x.detail)));
+ const view=await bootstrap({DB:db},'alice');
+ // Source cards use the same bounded aggregation as the maintenance status.
+ assert.equal(view.sources.find(x=>x.id==='kirin').lastRun.status,'error');
+ assert.equal(view.sources.find(x=>x.id==='family').lastRun.count,3);
 });
 test('公式URLの追跡値を除き、くじの必須ハッシュ経路と異なる応募IDを維持する',()=>{
  assert.equal(canonicalCampaignUrl('https://example.com/cp/?utm_source=a&id=2#apply'),'https://example.com/cp?id=2');
