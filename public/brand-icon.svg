@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">四つ葉を添えた封筒</title>
+  <rect width="128" height="128" rx="30" fill="#274D40"/>
+  <g fill="#EDB879">
+    <path d="M62 43C43 44 39 29 49 25C58 21 67 31 62 43Z"/>
+    <path d="M66 43C61 31 70 21 79 25C89 29 85 44 66 43Z"/>
+    <path d="M62 47C67 59 58 68 49 64C39 60 43 46 62 47Z"/>
+    <path d="M66 47C85 46 89 60 79 64C70 68 61 59 66 47Z"/>
+  </g>
+  <rect x="21" y="57" width="86" height="51" rx="10" fill="#FFF4DF"/>
+  <path d="m25 62 33 23a11 11 0 0 0 12 0l33-23" fill="none" stroke="#D5825D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
