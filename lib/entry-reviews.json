@@ -1112,12 +1112,12 @@
     "status": "open",
     "requirements": [],
     "steps": [
-      "無料公開されているWendy広島300号の誌面を読み、良かった記事または広告を選ぶ",
-      "読者プレゼント欄で160番「ガソリンのギフト券」を選ぶ（1,000円券2枚、3名）",
-      "氏名・国内の受取住所・連絡先・記事や広告への簡単な感想を入力し、1世帯1通まで応募する"
+      "主催者が公開する今月号の誌面を読み、良かった記事・広告を選ぶ。",
+      "希望賞品を1つ選び、氏名・住所・連絡先・応募回数を記入する。",
+      "メールマガジンは配信不要を選択可能。個人情報の企業案内への利用について公式記載を確認する。"
     ],
-    "checkedAt": "2026-11-04T15:25:20.432109+00:00",
-    "evidenceExcerpt": "公式300号の応募要項と160番を画像確認。商品を1つ選び記事等を回答する方法で、購入・広島県在住・事前来場は要件にない。160番は全国約8,000店で使える2,000円分のガソリンギフト券。他の地域施設賞品まで一律に確認した判定ではない。",
+    "checkedAt": "2026-11-07T01:00:40.833Z",
+    "evidenceExcerpt": "公式2026年11月号20ページに140番の全国百貨店共通商品券10,000円分・1名と明記。公式応募フォームの賞品選択・一般応募者情報・応募回数・記事選択を確認。購入・来店・会員限定は記載されていない。",
     "evidenceSources": [
       {
         "url": "https://syuppan.f-form.com/wendyh"
@@ -1137,7 +1137,10 @@
     ],
     "reviewedPeriod": "2026年11月14日消印有効。公式Webフォームも11月14日締切と表示。",
     "entryUrl": "https://syuppan.f-form.com/wendyh",
-    "reviewScope": "全国利用できる160番ガソリンのギフト券を選ぶルート。現地施設賞品等は別条件。"
+    "reviewScope": "全国利用できる160番ガソリンのギフト券を選ぶルート。現地施設賞品等は別条件。",
+    "summaryCorrection": "公式誌面を読み、良かった記事・広告と希望賞品1つを回答して応募。金券の選択肢には140番・全国百貨店共通商品券10,000円分1名などがあります。家電・宿泊券等を含む160種類は同じ300号記念企画内の選択賞品で、賞品ごとの人数・利用条件は誌面に記載。",
+    "prizeSourceUrl": "https://wendy-net.com/pdf/hiroshima/wh300-202611.pdf",
+    "prizeSourcePage": 20
   },
   {
     "sourceKey": "ada618b2d972aaa6919555d8",
@@ -2148,5 +2151,93 @@
     "evidenceExcerpt": "主催局の募集本文と実フォーム全文を確認。中部の現役学生は番組の取材対象の説明であり、応募者限定条件ではない。フォームは学校名とメッセージを明示的に任意とし、全都道府県・幅広い職業を選べる。",
     "entryUrl": "https://fma.co.jp/f/present/oubo/?id=wgOmxlHK",
     "summaryCorrection": "公式Webフォームから応募。毎週1名にAmazonギフトカード1,000円分。学校名・メッセージは任意で、学生や中部在住に限定されません。具体的な締切曜日・時刻は公式記載なし。"
+  },
+  {
+    "sourceKey": "3d393893f88b78f45885510e",
+    "officialUrl": "https://www.fmkochi.com/happy/index.html",
+    "sourceUrl": "https://www.fmkochi.com/happy/index.html",
+    "title": "FM高知 スマイルプレゼント2026 autumn",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "公式ページからリンクされたGoogleフォームで、9種類から希望賞品を1つ選ぶ。賞品違いを別企画として数えない。",
+      "氏名、年齢、職業、郵便番号、住所、電話番号を入力する。意見欄は任意。",
+      "応募期間内に内容を確認して送信する。Googleへのログインは入力保存のための任意案内で、必須ではない。"
+    ],
+    "checkedAt": "2026-11-07T00:47:51Z",
+    "evidenceExcerpt": "主催者の募集本文とリンク先の公開フォームを併読。必須なのは賞品選択と氏名・年齢・職業・郵便番号・住所・電話。意見欄は任意。購入・会員・聴取コード・地域限定の条件や入力欄はない。賞品の利用店舗が高知の指定店に限られる点は応募資格とは区別する。",
+    "entryUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeplwZwxLUPF19tcdNSAeBoVQAPUIDIpT51ibgMcK_M9kP6gA/viewform",
+    "summaryCorrection": "希望賞品を1つ選び氏名・年齢・職業・住所・電話で応募。購入や会員登録は不要。文具ハウス大山商品券2,000円20名、バンザイライフスタイル商品券5,000円2名、中央物産たたき工房商品券2,000円5名、西島園芸団地商品券1,000円10名など9賞品から選択。金券は指定店舗で使う券で、全国共通商品券ではありません。"
+  },
+  {
+    "sourceKey": "4269ed2d7df8e204caca541b",
+    "officialUrl": "https://fmfukuoka.co.jp/program/bbb/",
+    "sourceUrl": "https://fmfukuoka.co.jp/program/bbb/",
+    "title": "Best Music・Best Sports!! Amazonギフトカード1,000円",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "番組メッセージフォームで『Best Music・Best Sports!!』を選び、ラジオネームを入力。",
+      "自分にとっての『魂の1曲』とそのエピソードを記入。リクエストや感想を添える。",
+      "当選時に連絡を受け取れる連絡先を記入し、確認して送信する。"
+    ],
+    "checkedAt": "2026-11-07T00:47:51Z",
+    "evidenceExcerpt": "現行の公式番組ページと2026年10月25日の公式タイムテーブルが、ともに週1名へAmazonギフト1,000円と案内。公開メッセージフォームではラジオネームと番組名に必須表示、曲・メッセージ・連絡先等の欄を確認した。旧ブログアーカイブは2020年のQUOカード告知であり、現在の賞品として混ぜない。",
+    "entryUrl": "https://fmfukuoka.co.jp/message/?program_id=29",
+    "summaryCorrection": "番組への曲のリクエストとエピソード・感想を送った応募者から毎週1名にAmazonギフトカード1,000円分。公開フォームでラジオネームと番組名を指定して応募します。現行番組案内の賞品はAmazonギフトで、過去のQUOカード案内とは異なります。"
+  },
+  {
+    "sourceKey": "prtimes-broad:16719:2340",
+    "officialUrl": "https://b3ten-3gokushi.marv.jp/news/article/39068",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000002340.000016719.html",
+    "title": "ブラウザ三国志 天 1周年記念 Amazonギフトカード10万円プレゼント",
+    "status": "conditional",
+    "requirements": [
+      "ゲーム内イベント『1周年記念特別任務 前編 張角娘サマのお出ましだ！』の任務タブ全項目を締切までに達成する。"
+    ],
+    "steps": [
+      "ゲームを利用し、指定イベントの任務タブ全項目を達成。エントリー自体は条件達成前でも可能だが、抽選資格の達成は必要。",
+      "ゲーム内『プレゼントCP』から連絡先メールを登録。受付完了メールを受信してエントリーを完了する。",
+      "b3ten-campaign@marv.jpからのメールを受け取れるようにする。"
+    ],
+    "checkedAt": "2026-11-07T00:47:51Z",
+    "evidenceExcerpt": "主催者のキャンペーン詳細は、指定ゲーム内イベントの任務タブ全項目達成を応募条件と明記。賞品はAmazonギフト10万円を5名。500円×200名という既存要約はこの企画の内容ではない。条件達成前エントリー可という但し書きを、条件不要と解釈しない。",
+    "entryUrl": "https://b3ten-3gokushi.marv.jp/news/article/39068",
+    "summaryCorrection": "ゲーム内の指定周年イベント任務を全達成し、ゲーム内プレゼントCPでメール登録した方から、Amazonギフトカード100,000円分を抽選で5名にプレゼント。期限は11月20日4:59。単なるメール登録だけでは抽選資格を満たしません。"
+  },
+  {
+    "sourceKey": "tfm:https://audee.jp/program/show/16735",
+    "officialUrl": "https://audee.jp/program/show/16735",
+    "sourceUrl": "https://www.tfm.co.jp/present/",
+    "title": "中川翔子とヒャダインのリミックスZ QUOカードPay3,000円",
+    "status": "unknown",
+    "requirements": [
+      "公開フォームで『お聴きの放送局』が必須。実際に聴いている局を指定する必要があり、未聴取での応募資格までは確認しきれない。"
+    ],
+    "steps": [
+      "現行番組の公式メッセージフォームで、ラジオネームと実際の聴取放送局を入力。プレゼント応募を『はい』にする。",
+      "一般的な番組メッセージの抽選4名と、キモス生物情報の番組採用賞1名を区別する。"
+    ],
+    "checkedAt": "2026-11-07T00:47:51Z",
+    "evidenceExcerpt": "現在のTFM公式プレゼント一覧は番組名を『中川翔子とヒャダイン』と案内し、採用1名と一般メッセージ抽選4名を区別。旧Audee URLはJFN Podsへ転送され、そこから実フォームへ到達。実フォームの必須の聴取放送局欄を確認したが、未聴取者向けの選択肢や応募資格の明記は未確認。",
+    "entryUrl": "https://form.jfn.co.jp/remixz/message",
+    "summaryCorrection": "一般メッセージの応募者から毎週抽選4名にQUOカードPay3,000円。別にキモス生物情報の番組採用賞1名があり、合計5名全員が抽選という意味ではありません。フォームは聴取放送局の指定が必須で、未聴取時の応募可否は未確認です。"
+  },
+  {
+    "sourceKey": "meiji:https://x.com/innergarden_m",
+    "officialUrl": "https://x.com/innergarden_m",
+    "sourceUrl": "https://www.meiji.co.jp/campaign/index.html",
+    "title": "インナーガーデン 食欲の秋 おいしく腸活キャンペーン",
+    "status": "unknown",
+    "requirements": [
+      "明治公式一覧からのリンク先はXプロフィールで、正確な対象ポスト・応募資格・手順・当選条件の規約を確認できていない。"
+    ],
+    "steps": [
+      "主催者公式Xで実際の対象投稿・応募条件を確認する。プロフィールURLだけでは応募投稿を特定できません。"
+    ],
+    "checkedAt": "2026-11-07T00:47:51Z",
+    "evidenceExcerpt": "明治公式キャンペーン一覧で企画名・SNS応募・締切を確認。実際のリンクはx.com/innergarden_mのプロフィールで、開くと403。通常の検索でも現在の正確な投稿は特定できず、購入不要等のラベルだけで条件なしと推定しない。",
+    "entryUrl": null,
+    "summaryCorrection": "明治公式一覧に11月15日23:59締切のSNS企画として掲載。リンクはインナーガーデン公式Xのプロフィールで、正確な応募対象ポストと詳細資格は未確認です。確認できるまでは追加条件なしのおすすめ・一致通知の対象外。"
   }
 ]
