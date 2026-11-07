@@ -48,6 +48,17 @@ test('金券の公式規約訂正を表示・締切・一致通知に適用す�
  assert.equal(sql.prepare('SELECT COUNT(*) AS n FROM notifications').get().n,2);
 });
 
+test('人数と組数が混在する賞品は古い合算人数を表示せず、未訂正の人数は保持する',async()=>{
+ const {db}=database();
+ const kochi=SNAPSHOT_RECORDS.find(c=>c.sourceKey==='3d393893f88b78f45885510e');
+ assert.ok(kochi);
+ await ingest(db,[{...kochi,winners:66}]);
+ const row=await db.prepare('SELECT * FROM campaigns').first();
+ assert.equal(row.winners,66);
+ assert.equal(toClient(row).winners,null);
+ assert.equal(toClient({...row,official_url:'https://www.fmkochi.com/other/'}).winners,66);
+});
+
 test('更新履歴が増えても全行ごとの再走査をせず、収集元ごとの直近結果を返す',async()=>{
  const {sql,db}=database();
  const insert=sql.prepare('INSERT INTO sync_runs(id,source_id,started_at,finished_at,status,count,error) VALUES(?,?,?,?,?,?,?)');
