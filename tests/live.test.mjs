@@ -21,6 +21,17 @@ test('公式フォームで再確認した説明が古い応募制限の要約�
  assert.equal(toClient({...row,official_url:'https://fma.co.jp/f/present/?id=other'}).summary,c.summary);
 });
 
+test('UCカード公式Xの金券キャンペーンを規約・応募先・締切つきで再検証する',async()=>{
+ const c=SNAPSHOT_RECORDS.find(item=>item.sourceKey==='uc-card-x-2026:https://www2.uccard.co.jp/uc/lp/thanks_cmp/present_amazon.html');
+ const source=SNAPSHOT_SOURCES.find(item=>item.id==='uc-card-x-2026');assert.ok(c&&source);
+ const page='<!doctype html><html><body><main><h1>「UCカードグループ公式X」アカウント開設記念キャンペーン</h1><p>2026年10月1日（木）～2026年11月15日（日）</p><p>Amazonギフトカード（デジタルコード）1,000円分 250名様</p><p>無料のX登録、公式アカウントのフォローと対象投稿のリポストで応募。日本国内在住、アカウントは当選通知まで公開設定。</p></main></body></html>';
+ const fresh=revalidateSnapshot(source,page,new Date('2026-11-09T12:00:00.000Z'),source.url);assert.equal(fresh.length,1);
+ assert.deepEqual(revalidateSnapshot(source,page,new Date('2026-11-15T15:00:00.000Z'),source.url),[]);
+ const {db}=database();await ingest(db,fresh,'2026-11-09T12:00:00.000Z');const row=await db.prepare('SELECT * FROM campaigns').first();const client=toClient(row);
+ assert.equal(client.entryConditions.status,'open');assert.equal(client.entryConditions.entryUrl,'https://x.com/uccard_group');assert.equal(client.winners,250);
+ assert.equal(client.deadlineAt,'2026-11-15T14:59:00.000Z');assert.equal(client.imageSourceUrl,'https://www2.uccard.co.jp/uc/lp/thanks_cmp/index.html');
+});
+
 test('金券の公式規約訂正を表示・締切・一致通知に適用する',async()=>{
  const {sql,db}=database();
  const wagyu=SNAPSHOT_RECORDS.find(c=>c.sourceKey==='prtimes-tourism:53539:358');
