@@ -2259,5 +2259,23 @@
     "entryUrl": "https://jp.surveymonkey.com/r/QSHC2BV",
     "deadlineCorrection": "2026-11-09T03:00:00.000Z",
     "summaryCorrection": "料理トレンドの簡単なアンケートに回答すると、抽選でAmazonギフトカード500円分が10名に当たります。会員登録していない方も応募可能。メール・ニックネーム・性別・年齢帯・会員登録状況と、注目キーワード（最大3つ）・理由を回答。1人1回、11月9日正午締切。"
+  },
+  {
+    "sourceKey": "uc-card-x-2026:https://www2.uccard.co.jp/uc/lp/thanks_cmp/present_amazon.html",
+    "officialUrl": "https://www2.uccard.co.jp/uc/lp/thanks_cmp/present_amazon.html",
+    "sourceUrl": "https://www2.uccard.co.jp/uc/lp/thanks_cmp/present_amazon.html",
+    "title": "UCカードグループ公式X開設記念 Amazonギフトカード1,000円分",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "Xアカウントを無料登録し、UCカードグループ公式X（@uccard_group）をフォローする。",
+      "公式アカウントのキャンペーン対象投稿をリポストする。",
+      "応募時から当選通知時までアカウントを公開設定にし、公式アカウントをフォローした状態を保つ。",
+      "未成年者は親権者の同意を得る。"
+    ],
+    "checkedAt": "2026-11-09T12:33:00.000Z",
+    "evidenceExcerpt": "UCカードの公式キャンペーン規約で、賞品・250名・11月15日23:59締切と、無料X登録・公式アカウントのフォロー・対象投稿のリポストを確認。日本国内在住、応募から当選通知まで公開設定、未成年者は親権者同意が必要。UCカードの保有、契約、購入は応募条件に記載なし。公式キャンペーンページに応募案内と賞品画像がある。",
+    "entryUrl": "https://x.com/uccard_group",
+    "summaryCorrection": "UCカードグループ公式Xのフォローと対象投稿のリポストで応募。Amazonギフトカード（デジタルコード）1,000円分を250名に。UCカードの保有・契約・購入は不要。日本国内在住、Xアカウントの公開設定が必要。未成年者は親権者の同意が必要。"
   }
 ]
