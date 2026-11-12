@@ -19,7 +19,7 @@ const reviewsByUrl=new Map<string,any[]>();
 for(const review of reviews as any[]){const key=canonicalIdentityUrl(review.officialUrl);reviewsByUrl.set(key,[...(reviewsByUrl.get(key)||[]),review]);}
 function reviewed(c:any){
  const url=c.officialUrl||c.official_url;if(!url)return null;
- try{return (reviewsByUrl.get(canonicalIdentityUrl(url))||[]).find(r=>r.sourceKey===(c.sourceKey||c.source_key)||r.sourceKeys?.includes(c.sourceKey||c.source_key)||norm(r.title)===norm(c.title))||null;}catch{return null;}
+ try{return (reviewsByUrl.get(canonicalIdentityUrl(url))||[]).find(r=>r.sourceKey===(c.sourceKey||c.source_key)||r.sourceKeys?.includes(c.sourceKey||c.source_key)||norm(r.title)===norm(c.title)||array(r.titleAliases).some(title=>norm(title)===norm(c.title)))||null;}catch{return null;}
 }
 function entryLink(value:unknown){if(typeof value!=='string'||/[\[\]<>]|CONTEST_POST_ID|PLACEHOLDER/i.test(value))return null;try{const u=new URL(value);return u.protocol==='https:'&&!u.username&&!u.password&&!u.port?u.href:null;}catch{return null;}}
 export function reviewedDeadline(c:any):string|undefined{const correction=reviewed(c)?.deadlineCorrection;const value=typeof correction==='string'?correction:correction?.deadline;return typeof value==='string'&&Number.isFinite(Date.parse(value))?new Date(value).toISOString():undefined;}

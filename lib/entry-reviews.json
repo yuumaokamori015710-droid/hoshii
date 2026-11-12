@@ -2277,5 +2277,32 @@
     "evidenceExcerpt": "UCカードの公式キャンペーン規約で、賞品・250名・11月15日23:59締切と、無料X登録・公式アカウントのフォロー・対象投稿のリポストを確認。日本国内在住、応募から当選通知まで公開設定、未成年者は親権者同意が必要。UCカードの保有、契約、購入は応募条件に記載なし。公式キャンペーンページに応募案内と賞品画像がある。",
     "entryUrl": "https://x.com/uccard_group",
     "summaryCorrection": "UCカードグループ公式Xのフォローと対象投稿のリポストで応募。Amazonギフトカード（デジタルコード）1,000円分を250名に。UCカードの保有・契約・購入は不要。日本国内在住、Xアカウントの公開設定が必要。未成年者は親権者の同意が必要。"
+  },
+  {
+    "sourceKey": "suntory:starbucks-every-day-2026",
+    "sourceKeys": [
+      "suntory:starbucks-every-day-2026"
+    ],
+    "officialUrl": "https://mobile.suntory.co.jp/cpn/softdrink/starbucks/20261110/",
+    "sourceUrl": "https://mobile.suntory.co.jp/cpn/softdrink/starbucks/20261110/",
+    "title": "フォロー＆リプライで「スターバックスを1か月間毎日楽しめる！キャンペーン」",
+    "titleAliases": [
+      "スターバックスを1か月間毎日楽しめる！キャンペーン"
+    ],
+    "status": "conditional",
+    "requirements": [
+      "対象ポストに指定キャンペーン文言を付け、ホリデーシーズンに楽しみたいことを自作してリプライする必要がある。",
+      "リプライ内容を自作したものと表明し、サントリーが加工して宣伝・アーカイブ等に利用することを許諾する。"
+    ],
+    "steps": [
+      "Xでサントリー公式アカウント @suntory をフォローする。",
+      "対象の告知ポストに指定文言とホリデーシーズンに楽しみたいことを含むリプライを投稿する。応募者は日本国内在住の20歳以上。",
+      "Xアカウントを公開設定にし、当選案内までフォローを維持する。案内は2026年12月上旬にXのDMで届く。"
+    ],
+    "checkedAt": "2026-11-12T14:17:22Z",
+    "evidenceExcerpt": "サントリー公式キャンペーンページの応募方法・応募資格・注意事項を2026-11-12確認。Starbucks eGift 15,000円分（500円×30枚）50名、締切2026-11-23 23:59 JST。リプライには自作条件があり、加工・宣伝・アーカイブ利用の許諾条項を確認。公式ページからXの対象投稿URLを取得。",
+    "entryUrl": "https://x.com/suntory/status/2119988420743401629",
+    "deadlineCorrection": "2026-11-23T14:59:00.000Z",
+    "winnersCorrection": 50
   }
 ]

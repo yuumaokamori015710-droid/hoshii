@@ -3,7 +3,7 @@ import catalog from './expanded-catalog.json';
 import { clean, safeUrl, dateFromJapanese, classify, winners, inferMethods, officialImage, parseJSONP,jstTime,type CampaignInput } from './campaign-core';
 import { canonicalCampaignUrl,canonicalIdentityUrl } from './catalog-identity';
 
-export type IndexSource={id:string;name:string;url:string;selector:string;title?:string;link?:string;image?:string;period?:string;prize?:string;metadataPriority?:number;requireDate?:boolean;currentSelector?:string;kind?:string;dataUrl?:string;method?:string;body?:string;pages?:string[];selfEvidence?:boolean;requireSelector?:string;pageRecords?:Record<string,string[]>};
+export type IndexSource={id:string;name:string;url:string;selector:string;title?:string;link?:string;image?:string;period?:string;prize?:string;metadataPriority?:number;requireDate?:boolean;currentSelector?:string;kind?:string;dataUrl?:string;method?:string;body?:string;pages?:string[];selfEvidence?:boolean;requireSelector?:string;pageRecords?:Record<string,string[]>;emptyState?:string};
 export const DYNAMIC_INDEXES:IndexSource[]=[
  {id:'asahi-beer',name:'アサヒビール',url:'https://www.asahibeer.co.jp/campaign/',selector:'.p-campaignList_item',title:'.p-campaign_title',period:'.p-campaign_date',prize:'.p-accordionItem_content',link:'a[href]',image:'.p-campaign_pic img',requireDate:true,metadataPriority:3},
  {id:'asahi-inryo',name:'アサヒ飲料',url:'https://www.asahiinryo.co.jp/campaign/',selector:'.campaign-list>li',title:'.campaign-list__tit',period:'.campaign-list__date',prize:'.m-text',link:'a[href]',image:'.campaign-list__img img',requireDate:true,metadataPriority:3},
@@ -28,13 +28,14 @@ const closed=/応募受付終了(?!後|まで)|受付終了(?!後|まで)|キャ
 const irrelevant=/抽選販売|購入権の|購入権が|入場券販売|先行販売|チケット販売/;
 function textWithAlt($:any,el:any){const clone=$(el).clone();clone.find('script,style').remove();clone.find('img[alt]').each((_:number,img:any)=>$(img).replaceWith(' '+$(img).attr('alt')+' '));return clean(clone.text());}
 function field($:any,card:any,selector?:string){return selector?clean(card.find(selector).text()):'';}
+function explicitEmpty(source:IndexSource,$:any){return !!source.emptyState&&textWithAlt($,$('body')).includes(source.emptyState);}
 function applicationPeriod(text:string){
  const normal=text.normalize('NFKC').replace(/\s*(?:AM|午前)\s*(?=\d)/gi,' ').replace(/(?:PM|午後)\s*(\d{1,2}):/gi,(_,h)=>String(Number(h)<12?Number(h)+12:Number(h))+':');
  const section=normal.split(/応募(?:期間|締切)|実施期間|キャンペーン期間/).at(-1)||normal;
  return section.split(/賞品内容|レシート有効|対象購入|購入対象|当選発表|抽選日|詳しい応募方法|「永谷園アプリ」のダウンロード/)[0].trim();
 }
 export function parseOfficialIndex(source:IndexSource,raw:string,now=new Date()):CampaignInput[]{
- const $=load(raw),cards=$(source.selector);if(!cards.length)throw new Error(source.name+'公式一覧の構造が変わりました');
+ const $=load(raw),cards=$(source.selector);if(!cards.length){if(explicitEmpty(source,$))return [];throw new Error(source.name+'公式一覧の構造が変わりました');}
  const result:CampaignInput[]=[],seen=new Set<string>();
  cards.each((_,el)=>{
   const card=$(el),text=textWithAlt($,el);if(closed.test(text)||irrelevant.test(text)||!/当たる|あたる|抽選|プレゼント|もらえる|貰える|無料クーポン|賞品・当選人数/.test(text))return;
@@ -61,7 +62,7 @@ export function parseOfficialIndex(source:IndexSource,raw:string,now=new Date())
 export function revalidateSnapshot(source:IndexSource,raw:string,now=new Date(),pageUrl=source.url):CampaignInput[]{
  if(source.kind==='docomo-index')return parseDocomoIndex(source,raw,now);
  if(['vpoint','jcb','aupay','dpay','sugi'].includes(source.kind||''))return revalidateStructured(source,raw,now);
- const $=load(raw),cards=$(source.currentSelector||source.selector);if(!cards.length)throw new Error(source.name+'公式一覧の構造が変わりました');
+ const $=load(raw),cards=$(source.currentSelector||source.selector);if(!cards.length){if(explicitEmpty(source,$))return [];throw new Error(source.name+'公式一覧の構造が変わりました');}
  const urls=new Map<string,{text:string;classes:string}[]>();
  cards.each((_,el)=>{const card=$(el),text=textWithAlt($,el);if(closed.test(text)||irrelevant.test(text)||source.requireSelector&&!card.find(source.requireSelector).length)return;const anchors=card.is('a[href]')?card:card.find('a[href]');anchors.each((_,a)=>{try{const url=listingIdentity(safeUrl($(a).attr('href')!,source.url));const values=urls.get(url)||[];values.push({text,classes:card.attr('class')||''});urls.set(url,values);}catch{}});});
  return SNAPSHOT_RECORDS.filter(c=>c.sourceId===source.id).filter(c=>{
