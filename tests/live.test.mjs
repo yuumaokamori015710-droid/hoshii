@@ -158,9 +158,10 @@ test('一つの詳細ページを別企画の根拠にせず、終了後の個�
 });
 
 test('公式ページに明示された受付なしは空一覧として扱い、不明な構造変更は引き続き失敗にする',()=>{
- const mro=SNAPSHOT_SOURCES.find(s=>s.id==='mro'),tuy=SNAPSHOT_SOURCES.find(s=>s.id==='tuy-ponchi');assert.ok(mro?.emptyState);assert.ok(tuy?.emptyState);
+ const mro=SNAPSHOT_SOURCES.find(s=>s.id==='mro'),tuy=SNAPSHOT_SOURCES.find(s=>s.id==='tuy-ponchi'),eiga=SNAPSHOT_SOURCES.find(s=>s.id==='eiga');assert.ok(mro?.emptyState);assert.ok(tuy?.emptyState);assert.ok(eiga?.emptyState);
  assert.deepEqual(revalidateSnapshot(mro,'<body>応募可能なプレゼントはありません</body>',new Date()),[]);
  assert.deepEqual(revalidateSnapshot(tuy,'<body>プレゼントの受付を終了しました</body>',new Date()),[]);
+ assert.deepEqual(revalidateSnapshot(eiga,'<body>現在、応募受付中のプレゼントはございません。</body>',new Date()),[]);
  assert.throws(()=>revalidateSnapshot(mro,'<body>一時メンテナンス中です</body>',new Date()),/構造が変わりました/);
 });
 
