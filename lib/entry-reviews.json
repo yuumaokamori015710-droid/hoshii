@@ -2304,5 +2304,21 @@
     "entryUrl": "https://x.com/suntory/status/2119988420743401629",
     "deadlineCorrection": "2026-11-23T14:59:00.000Z",
     "winnersCorrection": 50
+  },
+  {
+    "sourceKey": "cleansui-2026:https://shop.cleansui.com/news-list/news_20261120.html",
+    "officialUrl": "https://shop.cleansui.com/news-list/news_20261120.html",
+    "sourceUrl": "https://shop.cleansui.com/news-list/news_20261120.html",
+    "title": "クリンスイ 年末キャンペーン",
+    "status": "open",
+    "requirements": [],
+    "steps": [
+      "クリンスイ公式LINEアカウントを友だち追加する（無料）",
+      "挨拶メッセージまたはリッチメニューのキャンペーン案内を開き、LINEトーク内アンケートに回答する（1人1回）",
+      "LINE公式アカウントをブロックしない。当選者には2027年2月中旬以降にLINEで連絡"
+    ],
+    "checkedAt": "2026-11-24T14:51:53Z",
+    "evidenceExcerpt": "公式企業発表は「どなたでも気軽にご参加」と案内し、応募方法をLINE友だち登録とアンケート回答としています。公式キャンペーンページに購入・レシート・既存利用者資格は記載されていません。",
+    "entryUrl": "https://liff.line.me/2003708985-BLY3eKmb?sl=97a379606d"
   }
 ]
